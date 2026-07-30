@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "defaults": {
-    "oci_root": "oci://ghcr.io/vespersio/helm-chart",
+    "oci_root": "oci://ghcr.io/vespersio/helm-charts",
     "initial_mode": "all",
     "batch_size": 100
   },

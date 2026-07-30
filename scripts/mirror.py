@@ -514,7 +514,7 @@ def create_plan(
 ) -> dict[str, Any]:
     plan_repositories: list[dict[str, Any]] = []
     upstream_files = upstream_files or {}
-    with tempfile.TemporaryDirectory(prefix="helm-chart-discover-") as directory_name:
+    with tempfile.TemporaryDirectory(prefix="helm-charts-discover-") as directory_name:
         directory = Path(directory_name)
         for repository in repositories:
             if repository.id in upstream_files:
@@ -677,7 +677,7 @@ def publish_plan(
                 print(f"{repository.id}: already handled {release_key(release)}")
 
         with tempfile.TemporaryDirectory(
-            prefix=f"helm-chart-{repository.id}-"
+            prefix=f"helm-charts-{repository.id}-"
         ) as directory_name:
             work_directory = Path(directory_name)
             environment = helm_environment(work_directory / "helm")

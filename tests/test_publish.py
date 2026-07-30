@@ -54,7 +54,7 @@ def write_repository(root: Path):
             {
                 "id": "example",
                 "url": "https://charts.example.test",
-                "oci_repository": "oci://ghcr.io/example/helm-chart/example",
+                "oci_repository": "oci://ghcr.io/example/helm-charts/example",
                 "state": "state/example.json",
                 "mode": "all",
                 "mark_initialized": True,

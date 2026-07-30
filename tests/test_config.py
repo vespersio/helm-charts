@@ -10,7 +10,7 @@ def configuration_data():
     return {
         "schema": 1,
         "defaults": {
-            "oci_root": "oci://ghcr.io/example/helm-chart",
+            "oci_root": "oci://ghcr.io/example/helm-charts",
             "initial_mode": "all",
             "batch_size": 10,
         },
@@ -48,7 +48,7 @@ class ConfigurationTests(unittest.TestCase):
             )
             self.assertEqual(
                 config.oci_repository(repository),
-                "oci://ghcr.io/example/helm-chart/example",
+                "oci://ghcr.io/example/helm-charts/example",
             )
 
     def test_rejects_duplicate_ids(self):

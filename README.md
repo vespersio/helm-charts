@@ -4,22 +4,22 @@ This repository mirrors configured upstream Helm repositories to a
 source-namespaced GHCR OCI repository:
 
 ```text
-oci://ghcr.io/vespersio/helm-chart/<source>/<chart>
+oci://ghcr.io/vespersio/helm-charts/<source>/<chart>
 ```
 
 Examples:
 
 ```bash
 helm install external-dns \
-  oci://ghcr.io/vespersio/helm-chart/external-dns/external-dns \
+  oci://ghcr.io/vespersio/helm-charts/external-dns/external-dns \
   --version 1.21.1
 
 helm install grafana \
-  oci://ghcr.io/vespersio/helm-chart/grafana/grafana \
+  oci://ghcr.io/vespersio/helm-charts/grafana/grafana \
   --version 10.5.15
 
 helm install vault \
-  oci://ghcr.io/vespersio/helm-chart/hashicorp/vault \
+  oci://ghcr.io/vespersio/helm-charts/hashicorp/vault \
   --version 0.30.0
 ```
 
