@@ -74,7 +74,9 @@ Each successfully pushed archive is immediately checkpointed in its source
 state file with the SHA-256 checksum of the original `.tgz`. If a later push
 fails, the workflow still commits successful checkpoints and the next run
 continues with the remaining releases. The archive is not unpacked or
-repackaged, and its chart name and version are verified before push.
+repacked, and its chart name and version are verified before push. Transient
+registry failures are retried four times with exponential backoff before the
+run is marked as failed.
 
 Chart versions are parsed and ordered using SemVer rules (including Helm's
 commonly accepted `v` prefix) instead of depending on the order returned by

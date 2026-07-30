@@ -11,12 +11,14 @@ from tests.test_config import configuration_data
 class FakeRunner:
     def __init__(self, fail_on_push: int | None = None):
         self.calls: list[list[str]] = []
+        self.command_attempts: list[int] = []
         self.metadata: dict[str, tuple[str, str]] = {}
         self.pushes = 0
         self.fail_on_push = fail_on_push
 
-    def run(self, arguments: list[str], *, env=None) -> str:
+    def run(self, arguments: list[str], *, env=None, attempts=1) -> str:
         self.calls.append(arguments)
+        self.command_attempts.append(attempts)
         if arguments[:3] == ["helm", "repo", "add"]:
             return ""
         if arguments[:3] == ["helm", "repo", "update"]:
@@ -88,6 +90,12 @@ class PublishTests(unittest.TestCase):
                 )
             )
             self.assertEqual(runner.pushes, 2)
+            push_attempts = [
+                attempts
+                for call, attempts in zip(runner.calls, runner.command_attempts)
+                if call[:2] == ["helm", "push"]
+            ]
+            self.assertEqual(push_attempts, [4, 4])
 
     def test_partial_failure_is_checkpointed_and_retry_is_idempotent(self):
         with tempfile.TemporaryDirectory() as directory:

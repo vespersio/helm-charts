@@ -12,6 +12,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from functools import cmp_to_key
@@ -75,25 +76,42 @@ class CommandRunner:
         arguments: list[str],
         *,
         env: dict[str, str] | None = None,
+        attempts: int = 1,
     ) -> str:
-        print("+", " ".join(arguments), flush=True)
-        try:
-            result = subprocess.run(
-                arguments,
-                check=True,
-                text=True,
-                stdout=subprocess.PIPE,
-                stderr=None,
-                env=env,
-            )
-        except FileNotFoundError as error:
-            raise MirrorError(f"Required executable not found: {arguments[0]}") from error
-        except subprocess.CalledProcessError as error:
-            raise MirrorError(
-                f"Command failed with exit code {error.returncode}: "
-                + " ".join(arguments)
-            ) from error
-        return result.stdout
+        if attempts < 1:
+            raise MirrorError("Command attempts must be a positive integer")
+        command = " ".join(arguments)
+        for attempt in range(1, attempts + 1):
+            print("+", command, flush=True)
+            try:
+                result = subprocess.run(
+                    arguments,
+                    check=True,
+                    text=True,
+                    stdout=subprocess.PIPE,
+                    stderr=None,
+                    env=env,
+                )
+                return result.stdout
+            except FileNotFoundError as error:
+                raise MirrorError(
+                    f"Required executable not found: {arguments[0]}"
+                ) from error
+            except subprocess.CalledProcessError as error:
+                if attempt == attempts:
+                    raise MirrorError(
+                        f"Command failed after {attempts} attempt(s) "
+                        f"with exit code {error.returncode}: {command}"
+                    ) from error
+                delay = 2 ** attempt
+                print(
+                    f"Command failed (attempt {attempt}/{attempts}); "
+                    f"retrying in {delay}s",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                time.sleep(delay)
+        raise AssertionError("unreachable")
 
 
 def read_json(path: Path) -> Any:
@@ -739,7 +757,10 @@ def publish_plan(
                         f"got {actual_name}@{actual_version}"
                     )
                 digest = sha256_file(archive)
-                runner.run(["helm", "push", str(archive), entry["oci_repository"]])
+                runner.run(
+                    ["helm", "push", str(archive), entry["oci_repository"]],
+                    attempts=4,
+                )
                 state["published"][key] = digest
                 save_state(state_path, state)
                 published_count += 1
