@@ -1,0 +1,12 @@
+[
+  {
+    "name": "external-dns/external-dns",
+    "version": "1.21.1",
+    "app_version": "0.19.0"
+  },
+  {
+    "name": "external-dns/external-dns",
+    "version": "1.20.0",
+    "app_version": "0.18.0"
+  }
+]

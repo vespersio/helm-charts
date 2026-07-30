@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "defaults": {
+    "oci_root": "oci://ghcr.io/vespersio/helm-chart",
+    "initial_mode": "all",
+    "batch_size": 100
+  },
+  "repositories": [
+    {
+      "id": "external-dns",
+      "name": "ExternalDNS",
+      "url": "https://kubernetes-sigs.github.io/external-dns/",
+      "destination": "external-dns",
+      "enabled": true,
+      "include": [
+        "external-dns"
+      ],
+      "exclude": []
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "url": "https://grafana.github.io/helm-charts",
+      "destination": "grafana",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
+    },
+    {
+      "id": "hashicorp",
+      "name": "HashiCorp",
+      "url": "https://helm.releases.hashicorp.com",
+      "destination": "hashicorp",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
+    }
+  ]
+}

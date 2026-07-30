@@ -1,0 +1,17 @@
+[
+  {
+    "name": "grafana/grafana",
+    "version": "10.5.15",
+    "app_version": "12.1.0"
+  },
+  {
+    "name": "grafana/grafana",
+    "version": "10.5.14",
+    "app_version": "12.1.0"
+  },
+  {
+    "name": "grafana/loki",
+    "version": "6.36.0",
+    "app_version": "3.5.1"
+  }
+]
