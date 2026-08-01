@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 
 from scripts import mirror
 
@@ -20,6 +21,23 @@ def release(chart: str, version: str):
 
 
 class DiscoveryTests(unittest.TestCase):
+    def test_unleash_fixture_contains_all_configured_charts(self):
+        root = Path(__file__).parents[1]
+        configuration = mirror.load_configuration(
+            root / "config" / "repositories.json"
+        )
+        repository = next(
+            item for item in configuration.repositories if item.id == "unleash"
+        )
+        upstream = mirror.read_json(root / "tests" / "fixtures" / "unleash.json")
+
+        normalized = mirror.normalize_upstream(upstream, repository)
+
+        self.assertEqual(
+            {item["chart"] for item in normalized},
+            {"unleash", "unleash-edge", "unleash-enterprise", "unleash-proxy"},
+        )
+
     def test_semver_comparison_handles_numeric_and_prerelease_versions(self):
         versions = [
             "1.9.0",

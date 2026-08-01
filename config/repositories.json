@@ -38,6 +38,17 @@
         "*"
       ],
       "exclude": []
+    },
+    {
+      "id": "unleash",
+      "name": "Unleash",
+      "url": "https://docs.getunleash.io/helm-charts",
+      "destination": "unleash",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
     }
   ]
 }

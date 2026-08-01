@@ -21,6 +21,10 @@ helm install grafana \
 helm install vault \
   oci://ghcr.io/vespersio/helm-charts/hashicorp/vault \
   --version 0.30.0
+
+helm install unleash \
+  oci://ghcr.io/vespersio/helm-charts/unleash/unleash \
+  --version 5.6.7
 ```
 
 The source namespace prevents collisions when two upstream repositories expose
