@@ -29,6 +29,10 @@ helm install unleash \
 helm install sentry \
   oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry \
   --version 33.1.0
+
+helm install harbor \
+  oci://ghcr.io/vespersio/helm-charts/harbor/harbor \
+  --version 1.19.2
 ```
 
 The source namespace prevents collisions when two upstream repositories expose

@@ -60,6 +60,17 @@
         "*"
       ],
       "exclude": []
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor",
+      "url": "https://helm.goharbor.io",
+      "destination": "harbor",
+      "enabled": true,
+      "include": [
+        "harbor"
+      ],
+      "exclude": []
     }
   ]
 }
