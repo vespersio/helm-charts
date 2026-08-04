@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "created_at": "2026-08-01T08:35:27.792433+00:00",
+  "repositories": [
+    {
+      "id": "unleash",
+      "url": "https://docs.getunleash.io/helm-charts",
+      "oci_repository": "oci://ghcr.io/vespersio/helm-charts/unleash",
+      "state": "state/unleash.json",
+      "mode": "all",
+      "mark_initialized": false,
+      "skip_after_success": [],
+      "releases": [
+        {
+          "chart": "unleash",
+          "version": "5.6.7",
+          "app_version": "7.5.0"
+        }
+      ]
+    }
+  ]
+}

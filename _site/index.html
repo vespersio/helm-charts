@@ -1,0 +1,2464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse Helm charts available from the Vespers public OCI mirror.">
+    <meta name="theme-color" content="#071018">
+    <title>Helm OCI Catalog · Vespers</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Vespers Helm catalog home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>vespers<span class="brand-muted">/helm</span></span>
+      </a>
+      <a class="header-link" href="https://github.com/vespersio/helm-charts">
+        View source <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-intro">
+          <div class="eyebrow"><span></span> Public Helm OCI mirror</div>
+          <h1 id="hero-title">Charts, ready<br><em>to pull.</em></h1>
+        </div>
+        <div class="hero-details">
+          <p class="hero-copy">
+            A clean, source-namespaced mirror of trusted upstream Helm charts,
+            published to GHCR and kept in sync automatically.
+          </p>
+
+          <dl class="stats" aria-label="Catalog statistics">
+            <div><dt>Sources</dt><dd>7</dd></div>
+            <div><dt>Available charts</dt><dd>77</dd></div>
+            <div><dt>Published releases</dt><dd>81</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalog-title">
+        <div class="catalog-heading">
+          <div>
+            <p class="section-label">Registry index</p>
+            <h2 id="catalog-title">Available charts</h2>
+          </div>
+          <p class="catalog-note">Showing the latest published version of each chart.</p>
+        </div>
+
+        <div class="controls" role="search">
+          <label class="search-field">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Search catalog</span>
+            <input id="catalog-search" type="search" placeholder="Search charts, sources or versions…" autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+          <label class="source-filter">
+            <span class="visually-hidden">Filter by source</span>
+            <select id="source-filter">
+              <option value="all">All sources</option>
+              <option value="external-dns">ExternalDNS</option>
+<option value="grafana">Grafana</option>
+<option value="hashicorp">HashiCorp</option>
+<option value="unleash">Unleash</option>
+<option value="sentry-kubernetes">Sentry Kubernetes</option>
+<option value="harbor">Harbor</option>
+<option value="gitlab">GitLab</option>
+            </select>
+          </label>
+        </div>
+
+        <p class="results-status" id="results-status" aria-live="polite"></p>
+        <div class="repository-list" id="repository-list">
+          
+    <article
+      class="repo-card"
+      data-repository="external-dns"
+      data-search="external-dns externaldns https://kubernetes-sigs.github.io/external-dns/ oci://ghcr.io/vespersio/helm-charts/external-dns"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>ExternalDNS</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://kubernetes-sigs.github.io/external-dns/" rel="noreferrer">
+            https://kubernetes-sigs.github.io/external-dns/<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">1 chart</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="external-dns externaldns external-dns 1.21.1 oci://ghcr.io/vespersio/helm-charts/external-dns/external-dns">
+        <div class="chart-identity">
+          <span class="chart-name">external-dns</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/external-dns/external-dns</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.21.1">
+          1.21.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/external-dns/external-dns"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for external-dns"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install external-dns oci://ghcr.io/vespersio/helm-charts/external-dns/external-dns --version 1.21.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for external-dns"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+
+    <article
+      class="repo-card"
+      data-repository="grafana"
+      data-search="grafana grafana https://grafana.github.io/helm-charts oci://ghcr.io/vespersio/helm-charts/grafana"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>Grafana</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://grafana.github.io/helm-charts" rel="noreferrer">
+            https://grafana.github.io/helm-charts<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">41 charts</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="grafana grafana alloy 1.11.0 oci://ghcr.io/vespersio/helm-charts/grafana/alloy">
+        <div class="chart-identity">
+          <span class="chart-name">alloy</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/alloy</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.11.0">
+          1.11.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/alloy"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for alloy"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install alloy oci://ghcr.io/vespersio/helm-charts/grafana/alloy --version 1.11.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for alloy"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana alloy-crd 1.0.1 oci://ghcr.io/vespersio/helm-charts/grafana/alloy-crd">
+        <div class="chart-identity">
+          <span class="chart-name">alloy-crd</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/alloy-crd</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.0.1">
+          1.0.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/alloy-crd"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for alloy-crd"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install alloy-crd oci://ghcr.io/vespersio/helm-charts/grafana/alloy-crd --version 1.0.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for alloy-crd"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana alloy-operator 0.6.2 oci://ghcr.io/vespersio/helm-charts/grafana/alloy-operator">
+        <div class="chart-identity">
+          <span class="chart-name">alloy-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/alloy-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.6.2">
+          0.6.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/alloy-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for alloy-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install alloy-operator oci://ghcr.io/vespersio/helm-charts/grafana/alloy-operator --version 0.6.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for alloy-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana beyla 1.16.10 oci://ghcr.io/vespersio/helm-charts/grafana/beyla">
+        <div class="chart-identity">
+          <span class="chart-name">beyla</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/beyla</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.16.10">
+          1.16.10
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/beyla"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for beyla"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install beyla oci://ghcr.io/vespersio/helm-charts/grafana/beyla --version 1.16.10"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for beyla"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana cloudcost-exporter 1.1.13 1.1.12 oci://ghcr.io/vespersio/helm-charts/grafana/cloudcost-exporter">
+        <div class="chart-identity">
+          <span class="chart-name">cloudcost-exporter</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/cloudcost-exporter</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.1.13">
+          1.1.13
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/cloudcost-exporter"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for cloudcost-exporter"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install cloudcost-exporter oci://ghcr.io/vespersio/helm-charts/grafana/cloudcost-exporter --version 1.1.13"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for cloudcost-exporter"
+          >Copy command</button>
+        </div>
+        
+        <details class="version-history">
+          <summary>
+            <span>View all 2 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>1.1.13</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install cloudcost-exporter oci://ghcr.io/vespersio/helm-charts/grafana/cloudcost-exporter --version 1.1.13"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for cloudcost-exporter version 1.1.13"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>1.1.12</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install cloudcost-exporter oci://ghcr.io/vespersio/helm-charts/grafana/cloudcost-exporter --version 1.1.12"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for cloudcost-exporter version 1.1.12"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana enterprise-logs 2.5.1 oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs">
+        <div class="chart-identity">
+          <span class="chart-name">enterprise-logs</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.5.1">
+          2.5.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for enterprise-logs"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install enterprise-logs oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs --version 2.5.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for enterprise-logs"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana enterprise-logs-simple 1.3.0 oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs-simple">
+        <div class="chart-identity">
+          <span class="chart-name">enterprise-logs-simple</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs-simple</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.3.0">
+          1.3.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs-simple"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for enterprise-logs-simple"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install enterprise-logs-simple oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-logs-simple --version 1.3.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for enterprise-logs-simple"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana enterprise-metrics 1.10.0 oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-metrics">
+        <div class="chart-identity">
+          <span class="chart-name">enterprise-metrics</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-metrics</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.10.0">
+          1.10.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-metrics"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for enterprise-metrics"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install enterprise-metrics oci://ghcr.io/vespersio/helm-charts/grafana/enterprise-metrics --version 1.10.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for enterprise-metrics"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana fluent-bit 2.6.0 oci://ghcr.io/vespersio/helm-charts/grafana/fluent-bit">
+        <div class="chart-identity">
+          <span class="chart-name">fluent-bit</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/fluent-bit</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.6.0">
+          2.6.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/fluent-bit"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for fluent-bit"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install fluent-bit oci://ghcr.io/vespersio/helm-charts/grafana/fluent-bit --version 2.6.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for fluent-bit"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana 10.5.15 oci://ghcr.io/vespersio/helm-charts/grafana/grafana">
+        <div class="chart-identity">
+          <span class="chart-name">grafana</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 10.5.15">
+          10.5.15
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana oci://ghcr.io/vespersio/helm-charts/grafana/grafana --version 10.5.15"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana-agent 0.44.2 oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent">
+        <div class="chart-identity">
+          <span class="chart-name">grafana-agent</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.44.2">
+          0.44.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana-agent"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana-agent oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent --version 0.44.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana-agent"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana-agent-operator 0.5.2 oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent-operator">
+        <div class="chart-identity">
+          <span class="chart-name">grafana-agent-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.5.2">
+          0.5.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana-agent-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana-agent-operator oci://ghcr.io/vespersio/helm-charts/grafana/grafana-agent-operator --version 0.5.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana-agent-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana-cloud-onboarding 0.4.7 oci://ghcr.io/vespersio/helm-charts/grafana/grafana-cloud-onboarding">
+        <div class="chart-identity">
+          <span class="chart-name">grafana-cloud-onboarding</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana-cloud-onboarding</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.4.7">
+          0.4.7
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana-cloud-onboarding"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana-cloud-onboarding"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana-cloud-onboarding oci://ghcr.io/vespersio/helm-charts/grafana/grafana-cloud-onboarding --version 0.4.7"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana-cloud-onboarding"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana-mcp 0.3.1 oci://ghcr.io/vespersio/helm-charts/grafana/grafana-mcp">
+        <div class="chart-identity">
+          <span class="chart-name">grafana-mcp</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana-mcp</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.3.1">
+          0.3.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana-mcp"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana-mcp"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana-mcp oci://ghcr.io/vespersio/helm-charts/grafana/grafana-mcp --version 0.3.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana-mcp"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana-operator 5.24.0 oci://ghcr.io/vespersio/helm-charts/grafana/grafana-operator">
+        <div class="chart-identity">
+          <span class="chart-name">grafana-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 5.24.0">
+          5.24.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana-operator oci://ghcr.io/vespersio/helm-charts/grafana/grafana-operator --version 5.24.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana grafana-sampling 1.1.7 oci://ghcr.io/vespersio/helm-charts/grafana/grafana-sampling">
+        <div class="chart-identity">
+          <span class="chart-name">grafana-sampling</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/grafana-sampling</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.1.7">
+          1.1.7
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/grafana-sampling"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for grafana-sampling"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install grafana-sampling oci://ghcr.io/vespersio/helm-charts/grafana/grafana-sampling --version 1.1.7"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for grafana-sampling"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana k6-operator 4.5.0 oci://ghcr.io/vespersio/helm-charts/grafana/k6-operator">
+        <div class="chart-identity">
+          <span class="chart-name">k6-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/k6-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 4.5.0">
+          4.5.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/k6-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for k6-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install k6-operator oci://ghcr.io/vespersio/helm-charts/grafana/k6-operator --version 4.5.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for k6-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana k8s-injection-controller 0.2.1 oci://ghcr.io/vespersio/helm-charts/grafana/k8s-injection-controller">
+        <div class="chart-identity">
+          <span class="chart-name">k8s-injection-controller</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/k8s-injection-controller</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.2.1">
+          0.2.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/k8s-injection-controller"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for k8s-injection-controller"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install k8s-injection-controller oci://ghcr.io/vespersio/helm-charts/grafana/k8s-injection-controller --version 0.2.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for k8s-injection-controller"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana k8s-manifest-tail 0.1.5 oci://ghcr.io/vespersio/helm-charts/grafana/k8s-manifest-tail">
+        <div class="chart-identity">
+          <span class="chart-name">k8s-manifest-tail</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/k8s-manifest-tail</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.5">
+          0.1.5
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/k8s-manifest-tail"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for k8s-manifest-tail"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install k8s-manifest-tail oci://ghcr.io/vespersio/helm-charts/grafana/k8s-manifest-tail --version 0.1.5"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for k8s-manifest-tail"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana k8s-monitoring 4.3.2 4.3.1 3.8.12 oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring">
+        <div class="chart-identity">
+          <span class="chart-name">k8s-monitoring</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 4.3.2">
+          4.3.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for k8s-monitoring"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install k8s-monitoring oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring --version 4.3.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for k8s-monitoring"
+          >Copy command</button>
+        </div>
+        
+        <details class="version-history">
+          <summary>
+            <span>View all 3 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>4.3.2</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install k8s-monitoring oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring --version 4.3.2"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for k8s-monitoring version 4.3.2"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>4.3.1</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install k8s-monitoring oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring --version 4.3.1"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for k8s-monitoring version 4.3.1"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>3.8.12</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install k8s-monitoring oci://ghcr.io/vespersio/helm-charts/grafana/k8s-monitoring --version 3.8.12"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for k8s-monitoring version 3.8.12"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana lgtm-distributed 3.0.1 oci://ghcr.io/vespersio/helm-charts/grafana/lgtm-distributed">
+        <div class="chart-identity">
+          <span class="chart-name">lgtm-distributed</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/lgtm-distributed</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 3.0.1">
+          3.0.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/lgtm-distributed"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for lgtm-distributed"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install lgtm-distributed oci://ghcr.io/vespersio/helm-charts/grafana/lgtm-distributed --version 3.0.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for lgtm-distributed"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana loki 7.2.0 oci://ghcr.io/vespersio/helm-charts/grafana/loki">
+        <div class="chart-identity">
+          <span class="chart-name">loki</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/loki</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 7.2.0">
+          7.2.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/loki"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for loki"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install loki oci://ghcr.io/vespersio/helm-charts/grafana/loki --version 7.2.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for loki"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana loki-canary 0.14.1 oci://ghcr.io/vespersio/helm-charts/grafana/loki-canary">
+        <div class="chart-identity">
+          <span class="chart-name">loki-canary</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/loki-canary</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.14.1">
+          0.14.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/loki-canary"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for loki-canary"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install loki-canary oci://ghcr.io/vespersio/helm-charts/grafana/loki-canary --version 0.14.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for loki-canary"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana loki-distributed 0.80.6 oci://ghcr.io/vespersio/helm-charts/grafana/loki-distributed">
+        <div class="chart-identity">
+          <span class="chart-name">loki-distributed</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/loki-distributed</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.80.6">
+          0.80.6
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/loki-distributed"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for loki-distributed"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install loki-distributed oci://ghcr.io/vespersio/helm-charts/grafana/loki-distributed --version 0.80.6"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for loki-distributed"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana loki-simple-scalable 1.8.11 oci://ghcr.io/vespersio/helm-charts/grafana/loki-simple-scalable">
+        <div class="chart-identity">
+          <span class="chart-name">loki-simple-scalable</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/loki-simple-scalable</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.8.11">
+          1.8.11
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/loki-simple-scalable"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for loki-simple-scalable"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install loki-simple-scalable oci://ghcr.io/vespersio/helm-charts/grafana/loki-simple-scalable --version 1.8.11"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for loki-simple-scalable"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana loki-stack 2.10.3 oci://ghcr.io/vespersio/helm-charts/grafana/loki-stack">
+        <div class="chart-identity">
+          <span class="chart-name">loki-stack</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/loki-stack</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.10.3">
+          2.10.3
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/loki-stack"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for loki-stack"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install loki-stack oci://ghcr.io/vespersio/helm-charts/grafana/loki-stack --version 2.10.3"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for loki-stack"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana meta-monitoring 1.3.0 oci://ghcr.io/vespersio/helm-charts/grafana/meta-monitoring">
+        <div class="chart-identity">
+          <span class="chart-name">meta-monitoring</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/meta-monitoring</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.3.0">
+          1.3.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/meta-monitoring"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for meta-monitoring"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install meta-monitoring oci://ghcr.io/vespersio/helm-charts/grafana/meta-monitoring --version 1.3.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for meta-monitoring"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana mimir-distributed 6.1.0 oci://ghcr.io/vespersio/helm-charts/grafana/mimir-distributed">
+        <div class="chart-identity">
+          <span class="chart-name">mimir-distributed</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/mimir-distributed</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 6.1.0">
+          6.1.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/mimir-distributed"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for mimir-distributed"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install mimir-distributed oci://ghcr.io/vespersio/helm-charts/grafana/mimir-distributed --version 6.1.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for mimir-distributed"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana mimir-openshift-experimental 2.1.0 oci://ghcr.io/vespersio/helm-charts/grafana/mimir-openshift-experimental">
+        <div class="chart-identity">
+          <span class="chart-name">mimir-openshift-experimental</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/mimir-openshift-experimental</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.1.0">
+          2.1.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/mimir-openshift-experimental"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for mimir-openshift-experimental"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install mimir-openshift-experimental oci://ghcr.io/vespersio/helm-charts/grafana/mimir-openshift-experimental --version 2.1.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for mimir-openshift-experimental"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana oncall 1.16.5 oci://ghcr.io/vespersio/helm-charts/grafana/oncall">
+        <div class="chart-identity">
+          <span class="chart-name">oncall</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/oncall</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.16.5">
+          1.16.5
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/oncall"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for oncall"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install oncall oci://ghcr.io/vespersio/helm-charts/grafana/oncall --version 1.16.5"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for oncall"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana pdc-agent 0.2.0 oci://ghcr.io/vespersio/helm-charts/grafana/pdc-agent">
+        <div class="chart-identity">
+          <span class="chart-name">pdc-agent</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/pdc-agent</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.2.0">
+          0.2.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/pdc-agent"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for pdc-agent"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install pdc-agent oci://ghcr.io/vespersio/helm-charts/grafana/pdc-agent --version 0.2.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for pdc-agent"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana phlare 0.5.4 oci://ghcr.io/vespersio/helm-charts/grafana/phlare">
+        <div class="chart-identity">
+          <span class="chart-name">phlare</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/phlare</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.5.4">
+          0.5.4
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/phlare"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for phlare"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install phlare oci://ghcr.io/vespersio/helm-charts/grafana/phlare --version 0.5.4"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for phlare"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana promtail 6.17.1 oci://ghcr.io/vespersio/helm-charts/grafana/promtail">
+        <div class="chart-identity">
+          <span class="chart-name">promtail</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/promtail</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 6.17.1">
+          6.17.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/promtail"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for promtail"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install promtail oci://ghcr.io/vespersio/helm-charts/grafana/promtail --version 6.17.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for promtail"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana pyroscope 2.2.0 oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope">
+        <div class="chart-identity">
+          <span class="chart-name">pyroscope</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.2.0">
+          2.2.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for pyroscope"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install pyroscope oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope --version 2.2.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for pyroscope"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana pyroscope-monitoring 0.1.1 oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope-monitoring">
+        <div class="chart-identity">
+          <span class="chart-name">pyroscope-monitoring</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope-monitoring</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.1">
+          0.1.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope-monitoring"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for pyroscope-monitoring"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install pyroscope-monitoring oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope-monitoring --version 0.1.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for pyroscope-monitoring"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana rollout-operator 0.50.1 oci://ghcr.io/vespersio/helm-charts/grafana/rollout-operator">
+        <div class="chart-identity">
+          <span class="chart-name">rollout-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/rollout-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.50.1">
+          0.50.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/rollout-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for rollout-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install rollout-operator oci://ghcr.io/vespersio/helm-charts/grafana/rollout-operator --version 0.50.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for rollout-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana snyk-exporter 0.1.0 oci://ghcr.io/vespersio/helm-charts/grafana/snyk-exporter">
+        <div class="chart-identity">
+          <span class="chart-name">snyk-exporter</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/snyk-exporter</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.0">
+          0.1.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/snyk-exporter"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for snyk-exporter"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install snyk-exporter oci://ghcr.io/vespersio/helm-charts/grafana/snyk-exporter --version 0.1.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for snyk-exporter"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana synthetic-monitoring-agent 1.2.1 oci://ghcr.io/vespersio/helm-charts/grafana/synthetic-monitoring-agent">
+        <div class="chart-identity">
+          <span class="chart-name">synthetic-monitoring-agent</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/synthetic-monitoring-agent</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.2.1">
+          1.2.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/synthetic-monitoring-agent"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for synthetic-monitoring-agent"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install synthetic-monitoring-agent oci://ghcr.io/vespersio/helm-charts/grafana/synthetic-monitoring-agent --version 1.2.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for synthetic-monitoring-agent"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana tempo 1.24.4 oci://ghcr.io/vespersio/helm-charts/grafana/tempo">
+        <div class="chart-identity">
+          <span class="chart-name">tempo</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/tempo</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.24.4">
+          1.24.4
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/tempo"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for tempo"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install tempo oci://ghcr.io/vespersio/helm-charts/grafana/tempo --version 1.24.4"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for tempo"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana tempo-distributed 1.61.3 oci://ghcr.io/vespersio/helm-charts/grafana/tempo-distributed">
+        <div class="chart-identity">
+          <span class="chart-name">tempo-distributed</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/tempo-distributed</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.61.3">
+          1.61.3
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/tempo-distributed"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for tempo-distributed"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install tempo-distributed oci://ghcr.io/vespersio/helm-charts/grafana/tempo-distributed --version 1.61.3"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for tempo-distributed"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="grafana grafana tempo-vulture 0.10.1 oci://ghcr.io/vespersio/helm-charts/grafana/tempo-vulture">
+        <div class="chart-identity">
+          <span class="chart-name">tempo-vulture</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/tempo-vulture</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.10.1">
+          0.10.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/grafana/tempo-vulture"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for tempo-vulture"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install tempo-vulture oci://ghcr.io/vespersio/helm-charts/grafana/tempo-vulture --version 0.10.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for tempo-vulture"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+
+    <article
+      class="repo-card"
+      data-repository="hashicorp"
+      data-search="hashicorp hashicorp https://helm.releases.hashicorp.com oci://ghcr.io/vespersio/helm-charts/hashicorp"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>HashiCorp</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://helm.releases.hashicorp.com" rel="noreferrer">
+            https://helm.releases.hashicorp.com<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">12 charts</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp boundary-controller 0.1.1 oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-controller">
+        <div class="chart-identity">
+          <span class="chart-name">boundary-controller</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-controller</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.1">
+          0.1.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-controller"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for boundary-controller"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install boundary-controller oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-controller --version 0.1.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for boundary-controller"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp boundary-worker 0.1.1 0.1.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-worker">
+        <div class="chart-identity">
+          <span class="chart-name">boundary-worker</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-worker</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.1">
+          0.1.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-worker"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for boundary-worker"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install boundary-worker oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-worker --version 0.1.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for boundary-worker"
+          >Copy command</button>
+        </div>
+        
+        <details class="version-history">
+          <summary>
+            <span>View all 2 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>0.1.1</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install boundary-worker oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-worker --version 0.1.1"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for boundary-worker version 0.1.1"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>0.1.0</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install boundary-worker oci://ghcr.io/vespersio/helm-charts/hashicorp/boundary-worker --version 0.1.0"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for boundary-worker version 0.1.0"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp consul 2.0.2 oci://ghcr.io/vespersio/helm-charts/hashicorp/consul">
+        <div class="chart-identity">
+          <span class="chart-name">consul</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/consul</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.0.2">
+          2.0.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/consul"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for consul"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install consul oci://ghcr.io/vespersio/helm-charts/hashicorp/consul --version 2.0.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for consul"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp hcp-terraform-operator 2.12.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/hcp-terraform-operator">
+        <div class="chart-identity">
+          <span class="chart-name">hcp-terraform-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/hcp-terraform-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.12.0">
+          2.12.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/hcp-terraform-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for hcp-terraform-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install hcp-terraform-operator oci://ghcr.io/vespersio/helm-charts/hashicorp/hcp-terraform-operator --version 2.12.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for hcp-terraform-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp terraform 1.1.2 oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform">
+        <div class="chart-identity">
+          <span class="chart-name">terraform</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.1.2">
+          1.1.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for terraform"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install terraform oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform --version 1.1.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for terraform"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp terraform-cloud-operator 2.5.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-cloud-operator">
+        <div class="chart-identity">
+          <span class="chart-name">terraform-cloud-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-cloud-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.5.0">
+          2.5.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-cloud-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for terraform-cloud-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install terraform-cloud-operator oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-cloud-operator --version 2.5.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for terraform-cloud-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp terraform-enterprise 2.0.4 oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise">
+        <div class="chart-identity">
+          <span class="chart-name">terraform-enterprise</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.0.4">
+          2.0.4
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for terraform-enterprise"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install terraform-enterprise oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise --version 2.0.4"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for terraform-enterprise"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp vault 0.34.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/vault">
+        <div class="chart-identity">
+          <span class="chart-name">vault</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/vault</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.34.0">
+          0.34.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/vault"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for vault"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install vault oci://ghcr.io/vespersio/helm-charts/hashicorp/vault --version 0.34.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for vault"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp vault-radar-agent 0.1.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-radar-agent">
+        <div class="chart-identity">
+          <span class="chart-name">vault-radar-agent</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-radar-agent</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.0">
+          0.1.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-radar-agent"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for vault-radar-agent"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install vault-radar-agent oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-radar-agent --version 0.1.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for vault-radar-agent"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp vault-secrets-gateway 0.0.2 oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-gateway">
+        <div class="chart-identity">
+          <span class="chart-name">vault-secrets-gateway</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-gateway</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.0.2">
+          0.0.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-gateway"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for vault-secrets-gateway"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install vault-secrets-gateway oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-gateway --version 0.0.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for vault-secrets-gateway"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp vault-secrets-operator 1.5.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-operator">
+        <div class="chart-identity">
+          <span class="chart-name">vault-secrets-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.5.0">
+          1.5.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for vault-secrets-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install vault-secrets-operator oci://ghcr.io/vespersio/helm-charts/hashicorp/vault-secrets-operator --version 1.5.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for vault-secrets-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp waypoint 0.1.21 oci://ghcr.io/vespersio/helm-charts/hashicorp/waypoint">
+        <div class="chart-identity">
+          <span class="chart-name">waypoint</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/waypoint</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.21">
+          0.1.21
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/hashicorp/waypoint"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for waypoint"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install waypoint oci://ghcr.io/vespersio/helm-charts/hashicorp/waypoint --version 0.1.21"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for waypoint"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+
+    <article
+      class="repo-card"
+      data-repository="unleash"
+      data-search="unleash unleash https://docs.getunleash.io/helm-charts oci://ghcr.io/vespersio/helm-charts/unleash"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>Unleash</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://docs.getunleash.io/helm-charts" rel="noreferrer">
+            https://docs.getunleash.io/helm-charts<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">4 charts</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="unleash unleash unleash 5.6.7 oci://ghcr.io/vespersio/helm-charts/unleash/unleash">
+        <div class="chart-identity">
+          <span class="chart-name">unleash</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/unleash/unleash</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 5.6.7">
+          5.6.7
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/unleash/unleash"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for unleash"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install unleash oci://ghcr.io/vespersio/helm-charts/unleash/unleash --version 5.6.7"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for unleash"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="unleash unleash unleash-edge 3.2.0 oci://ghcr.io/vespersio/helm-charts/unleash/unleash-edge">
+        <div class="chart-identity">
+          <span class="chart-name">unleash-edge</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/unleash/unleash-edge</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 3.2.0">
+          3.2.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/unleash/unleash-edge"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for unleash-edge"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install unleash-edge oci://ghcr.io/vespersio/helm-charts/unleash/unleash-edge --version 3.2.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for unleash-edge"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="unleash unleash unleash-enterprise 1.0.3 oci://ghcr.io/vespersio/helm-charts/unleash/unleash-enterprise">
+        <div class="chart-identity">
+          <span class="chart-name">unleash-enterprise</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/unleash/unleash-enterprise</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.0.3">
+          1.0.3
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/unleash/unleash-enterprise"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for unleash-enterprise"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install unleash-enterprise oci://ghcr.io/vespersio/helm-charts/unleash/unleash-enterprise --version 1.0.3"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for unleash-enterprise"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="unleash unleash unleash-proxy 0.8.12 oci://ghcr.io/vespersio/helm-charts/unleash/unleash-proxy">
+        <div class="chart-identity">
+          <span class="chart-name">unleash-proxy</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/unleash/unleash-proxy</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.8.12">
+          0.8.12
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/unleash/unleash-proxy"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for unleash-proxy"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install unleash-proxy oci://ghcr.io/vespersio/helm-charts/unleash/unleash-proxy --version 0.8.12"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for unleash-proxy"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+
+    <article
+      class="repo-card"
+      data-repository="sentry-kubernetes"
+      data-search="sentry-kubernetes sentry kubernetes https://sentry-kubernetes.github.io/charts oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>Sentry Kubernetes</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://sentry-kubernetes.github.io/charts" rel="noreferrer">
+            https://sentry-kubernetes.github.io/charts<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">4 charts</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="sentry-kubernetes sentry kubernetes clickhouse 4.1.1 oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/clickhouse">
+        <div class="chart-identity">
+          <span class="chart-name">clickhouse</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/clickhouse</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 4.1.1">
+          4.1.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/clickhouse"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for clickhouse"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install clickhouse oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/clickhouse --version 4.1.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for clickhouse"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="sentry-kubernetes sentry kubernetes sentry 33.1.0 oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry">
+        <div class="chart-identity">
+          <span class="chart-name">sentry</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 33.1.0">
+          33.1.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for sentry"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install sentry oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry --version 33.1.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for sentry"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="sentry-kubernetes sentry kubernetes sentry-db 0.9.4 oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-db">
+        <div class="chart-identity">
+          <span class="chart-name">sentry-db</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-db</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.9.4">
+          0.9.4
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-db"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for sentry-db"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install sentry-db oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-db --version 0.9.4"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for sentry-db"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="sentry-kubernetes sentry kubernetes sentry-kubernetes 0.4.0 oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-kubernetes">
+        <div class="chart-identity">
+          <span class="chart-name">sentry-kubernetes</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-kubernetes</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.4.0">
+          0.4.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-kubernetes"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for sentry-kubernetes"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install sentry-kubernetes oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry-kubernetes --version 0.4.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for sentry-kubernetes"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+
+    <article
+      class="repo-card"
+      data-repository="harbor"
+      data-search="harbor harbor https://helm.goharbor.io oci://ghcr.io/vespersio/helm-charts/harbor"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>Harbor</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://helm.goharbor.io" rel="noreferrer">
+            https://helm.goharbor.io<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">1 chart</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="harbor harbor harbor 1.19.2 oci://ghcr.io/vespersio/helm-charts/harbor/harbor">
+        <div class="chart-identity">
+          <span class="chart-name">harbor</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/harbor/harbor</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 1.19.2">
+          1.19.2
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/harbor/harbor"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for harbor"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install harbor oci://ghcr.io/vespersio/helm-charts/harbor/harbor --version 1.19.2"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for harbor"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+
+    <article
+      class="repo-card"
+      data-repository="gitlab"
+      data-search="gitlab gitlab https://charts.gitlab.io oci://ghcr.io/vespersio/helm-charts/gitlab"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>GitLab</h2>
+            <span class="status-pill status-ready">
+              <span class="status-dot" aria-hidden="true"></span>Available
+            </span>
+          </div>
+          <a class="upstream-link" href="https://charts.gitlab.io" rel="noreferrer">
+            https://charts.gitlab.io<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">14 charts</span>
+      </header>
+      
+        <div class="chart-table-head" aria-hidden="true">
+          <span>Chart</span><span>Latest</span><span>Actions</span>
+        </div>
+        <ul class="chart-list">
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab apparmor 0.2.0 oci://ghcr.io/vespersio/helm-charts/gitlab/apparmor">
+        <div class="chart-identity">
+          <span class="chart-name">apparmor</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/apparmor</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.2.0">
+          0.2.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/apparmor"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for apparmor"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install apparmor oci://ghcr.io/vespersio/helm-charts/gitlab/apparmor --version 0.2.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for apparmor"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab auto-deploy-app 0.8.1 oci://ghcr.io/vespersio/helm-charts/gitlab/auto-deploy-app">
+        <div class="chart-identity">
+          <span class="chart-name">auto-deploy-app</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/auto-deploy-app</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.8.1">
+          0.8.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/auto-deploy-app"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for auto-deploy-app"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install auto-deploy-app oci://ghcr.io/vespersio/helm-charts/gitlab/auto-deploy-app --version 0.8.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for auto-deploy-app"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab elastic-stack 3.0.0 oci://ghcr.io/vespersio/helm-charts/gitlab/elastic-stack">
+        <div class="chart-identity">
+          <span class="chart-name">elastic-stack</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/elastic-stack</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 3.0.0">
+          3.0.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/elastic-stack"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for elastic-stack"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install elastic-stack oci://ghcr.io/vespersio/helm-charts/gitlab/elastic-stack --version 3.0.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for elastic-stack"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab fluentd-elasticsearch 6.2.8 oci://ghcr.io/vespersio/helm-charts/gitlab/fluentd-elasticsearch">
+        <div class="chart-identity">
+          <span class="chart-name">fluentd-elasticsearch</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/fluentd-elasticsearch</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 6.2.8">
+          6.2.8
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/fluentd-elasticsearch"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for fluentd-elasticsearch"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install fluentd-elasticsearch oci://ghcr.io/vespersio/helm-charts/gitlab/fluentd-elasticsearch --version 6.2.8"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for fluentd-elasticsearch"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab 10.2.1 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab">
+        <div class="chart-identity">
+          <span class="chart-name">gitlab</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 10.2.1">
+          10.2.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for gitlab"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install gitlab oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab --version 10.2.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for gitlab"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab-agent 2.29.0 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-agent">
+        <div class="chart-identity">
+          <span class="chart-name">gitlab-agent</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-agent</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 2.29.0">
+          2.29.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-agent"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for gitlab-agent"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install gitlab-agent oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-agent --version 2.29.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for gitlab-agent"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab-omnibus 0.1.37 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-omnibus">
+        <div class="chart-identity">
+          <span class="chart-name">gitlab-omnibus</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-omnibus</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.37">
+          0.1.37
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-omnibus"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for gitlab-omnibus"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install gitlab-omnibus oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-omnibus --version 0.1.37"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for gitlab-omnibus"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab-operator 3.2.1 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-operator">
+        <div class="chart-identity">
+          <span class="chart-name">gitlab-operator</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-operator</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 3.2.1">
+          3.2.1
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-operator"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for gitlab-operator"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install gitlab-operator oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-operator --version 3.2.1"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for gitlab-operator"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab-runner 0.91.0 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-runner">
+        <div class="chart-identity">
+          <span class="chart-name">gitlab-runner</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-runner</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.91.0">
+          0.91.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-runner"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for gitlab-runner"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install gitlab-runner oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-runner --version 0.91.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for gitlab-runner"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab-zoekt 4.1.0 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-zoekt">
+        <div class="chart-identity">
+          <span class="chart-name">gitlab-zoekt</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-zoekt</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 4.1.0">
+          4.1.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-zoekt"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for gitlab-zoekt"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install gitlab-zoekt oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-zoekt --version 4.1.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for gitlab-zoekt"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab knative 0.10.0 oci://ghcr.io/vespersio/helm-charts/gitlab/knative">
+        <div class="chart-identity">
+          <span class="chart-name">knative</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/knative</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.10.0">
+          0.10.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/knative"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for knative"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install knative oci://ghcr.io/vespersio/helm-charts/gitlab/knative --version 0.10.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for knative"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab kubernetes-gitlab-demo 0.1.29 oci://ghcr.io/vespersio/helm-charts/gitlab/kubernetes-gitlab-demo">
+        <div class="chart-identity">
+          <span class="chart-name">kubernetes-gitlab-demo</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/kubernetes-gitlab-demo</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.29">
+          0.1.29
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/kubernetes-gitlab-demo"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for kubernetes-gitlab-demo"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install kubernetes-gitlab-demo oci://ghcr.io/vespersio/helm-charts/gitlab/kubernetes-gitlab-demo --version 0.1.29"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for kubernetes-gitlab-demo"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab openbao 0.17.0 oci://ghcr.io/vespersio/helm-charts/gitlab/openbao">
+        <div class="chart-identity">
+          <span class="chart-name">openbao</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/openbao</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.17.0">
+          0.17.0
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/openbao"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for openbao"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install openbao oci://ghcr.io/vespersio/helm-charts/gitlab/openbao --version 0.17.0"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for openbao"
+          >Copy command</button>
+        </div>
+        
+      </li>
+
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab plantuml 0.1.17 oci://ghcr.io/vespersio/helm-charts/gitlab/plantuml">
+        <div class="chart-identity">
+          <span class="chart-name">plantuml</span>
+          <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/plantuml</code>
+        </div>
+        <span class="version-badge" aria-label="Latest version 0.1.17">
+          0.1.17
+        </span>
+        <div class="chart-actions">
+          <button
+            class="button button-secondary"
+            type="button"
+            data-copy="oci://ghcr.io/vespersio/helm-charts/gitlab/plantuml"
+            data-copy-label="Copy URI"
+            aria-label="Copy OCI URI for plantuml"
+          >Copy URI</button>
+          <button
+            class="button button-primary"
+            type="button"
+            data-copy="helm install plantuml oci://ghcr.io/vespersio/helm-charts/gitlab/plantuml --version 0.1.17"
+            data-copy-label="Copy command"
+            aria-label="Copy install command for plantuml"
+          >Copy command</button>
+        </div>
+        
+      </li>
+        </ul>
+    </article>
+        </div>
+        <div class="no-results" id="no-results" hidden>
+          <span aria-hidden="true">∅</span>
+          <h3>No matching charts</h3>
+          <p>Try another name, source or version.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Generated from committed mirror state · 2026-08-04 18:15 UTC</p>
+      <p>Artifacts are served from <strong>ghcr.io</strong></p>
+    </footer>
+
+    <div class="toast" id="copy-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

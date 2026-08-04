@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "created_at": "2026-07-30T21:11:43.921998+00:00",
+  "repositories": [
+    {
+      "id": "external-dns",
+      "url": "https://kubernetes-sigs.github.io/external-dns/",
+      "oci_repository": "oci://ghcr.io/vespersio/helm-chart/external-dns",
+      "state": "state/external-dns.json",
+      "mode": "all",
+      "mark_initialized": false,
+      "skip_after_success": [],
+      "releases": [
+        {
+          "chart": "external-dns",
+          "version": "1.21.1",
+          "app_version": "0.21.0"
+        }
+      ]
+    }
+  ]
+}

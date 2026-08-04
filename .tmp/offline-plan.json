@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "created_at": "2026-07-30T21:13:23.377860+00:00",
+  "repositories": [
+    {
+      "id": "external-dns",
+      "url": "https://kubernetes-sigs.github.io/external-dns/",
+      "oci_repository": "oci://ghcr.io/vespersio/helm-chart/external-dns",
+      "state": "state/external-dns.json",
+      "mode": "all",
+      "mark_initialized": true,
+      "skip_after_success": [],
+      "releases": [
+        {
+          "chart": "external-dns",
+          "version": "1.21.1",
+          "app_version": "0.19.0"
+        },
+        {
+          "chart": "external-dns",
+          "version": "1.20.0",
+          "app_version": "0.18.0"
+        }
+      ]
+    },
+    {
+      "id": "grafana",
+      "url": "https://grafana.github.io/helm-charts",
+      "oci_repository": "oci://ghcr.io/vespersio/helm-chart/grafana",
+      "state": "state/grafana.json",
+      "mode": "all",
+      "mark_initialized": false,
+      "skip_after_success": [],
+      "releases": [
+        {
+          "chart": "grafana",
+          "version": "10.5.15",
+          "app_version": "12.1.0"
+        },
+        {
+          "chart": "grafana",
+          "version": "10.5.14",
+          "app_version": "12.1.0"
+        }
+      ]
+    },
+    {
+      "id": "hashicorp",
+      "url": "https://helm.releases.hashicorp.com",
+      "oci_repository": "oci://ghcr.io/vespersio/helm-chart/hashicorp",
+      "state": "state/hashicorp.json",
+      "mode": "all",
+      "mark_initialized": false,
+      "skip_after_success": [],
+      "releases": [
+        {
+          "chart": "consul",
+          "version": "1.8.1",
+          "app_version": "1.21.2"
+        },
+        {
+          "chart": "vault",
+          "version": "0.30.1",
+          "app_version": "1.19.5"
+        }
+      ]
+    }
+  ]
+}
