@@ -1,0 +1,72 @@
+[
+  {
+    "name": "gitlab/apparmor",
+    "version": "0.2.0",
+    "app_version": "0.1.0"
+  },
+  {
+    "name": "gitlab/auto-deploy-app",
+    "version": "0.8.1",
+    "app_version": ""
+  },
+  {
+    "name": "gitlab/elastic-stack",
+    "version": "3.0.0",
+    "app_version": "7.6.2"
+  },
+  {
+    "name": "gitlab/fluentd-elasticsearch",
+    "version": "6.2.8",
+    "app_version": "2.8.0"
+  },
+  {
+    "name": "gitlab/gitlab",
+    "version": "10.2.1",
+    "app_version": "v19.2.1"
+  },
+  {
+    "name": "gitlab/gitlab-agent",
+    "version": "2.29.0",
+    "app_version": "v19.2.0"
+  },
+  {
+    "name": "gitlab/gitlab-omnibus",
+    "version": "0.1.37",
+    "app_version": ""
+  },
+  {
+    "name": "gitlab/gitlab-operator",
+    "version": "3.2.1",
+    "app_version": "3.2.1"
+  },
+  {
+    "name": "gitlab/gitlab-runner",
+    "version": "0.91.0",
+    "app_version": "19.2.0"
+  },
+  {
+    "name": "gitlab/gitlab-zoekt",
+    "version": "4.1.0",
+    "app_version": "1.14.2"
+  },
+  {
+    "name": "gitlab/knative",
+    "version": "0.10.0",
+    "app_version": "0.9.0"
+  },
+  {
+    "name": "gitlab/kubernetes-gitlab-demo",
+    "version": "0.1.29",
+    "app_version": ""
+  },
+  {
+    "name": "gitlab/openbao",
+    "version": "0.17.0",
+    "app_version": "v2.5.5-gitlab2"
+  },
+  {
+    "name": "gitlab/plantuml",
+    "version": "0.1.17",
+    "app_version": "1.0"
+  }
+]

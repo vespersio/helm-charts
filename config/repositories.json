@@ -71,6 +71,17 @@
         "harbor"
       ],
       "exclude": []
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "url": "https://charts.gitlab.io",
+      "destination": "gitlab",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
     }
   ]
 }

@@ -21,6 +21,38 @@ def release(chart: str, version: str):
 
 
 class DiscoveryTests(unittest.TestCase):
+    def test_gitlab_fixture_contains_all_configured_charts(self):
+        root = Path(__file__).parents[1]
+        configuration = mirror.load_configuration(
+            root / "config" / "repositories.json"
+        )
+        repository = next(
+            item for item in configuration.repositories if item.id == "gitlab"
+        )
+        upstream = mirror.read_json(root / "tests" / "fixtures" / "gitlab.json")
+
+        normalized = mirror.normalize_upstream(upstream, repository)
+
+        self.assertEqual(
+            {item["chart"] for item in normalized},
+            {
+                "apparmor",
+                "auto-deploy-app",
+                "elastic-stack",
+                "fluentd-elasticsearch",
+                "gitlab",
+                "gitlab-agent",
+                "gitlab-omnibus",
+                "gitlab-operator",
+                "gitlab-runner",
+                "gitlab-zoekt",
+                "knative",
+                "kubernetes-gitlab-demo",
+                "openbao",
+                "plantuml",
+            },
+        )
+
     def test_harbor_fixture_contains_the_configured_chart(self):
         root = Path(__file__).parents[1]
         configuration = mirror.load_configuration(

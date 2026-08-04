@@ -33,6 +33,10 @@ helm install sentry \
 helm install harbor \
   oci://ghcr.io/vespersio/helm-charts/harbor/harbor \
   --version 1.19.2
+
+helm install gitlab \
+  oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab \
+  --version 10.2.1
 ```
 
 The source namespace prevents collisions when two upstream repositories expose
