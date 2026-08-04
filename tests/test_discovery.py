@@ -21,6 +21,27 @@ def release(chart: str, version: str):
 
 
 class DiscoveryTests(unittest.TestCase):
+    def test_sentry_fixture_contains_all_configured_charts(self):
+        root = Path(__file__).parents[1]
+        configuration = mirror.load_configuration(
+            root / "config" / "repositories.json"
+        )
+        repository = next(
+            item
+            for item in configuration.repositories
+            if item.id == "sentry-kubernetes"
+        )
+        upstream = mirror.read_json(
+            root / "tests" / "fixtures" / "sentry-kubernetes.json"
+        )
+
+        normalized = mirror.normalize_upstream(upstream, repository)
+
+        self.assertEqual(
+            {item["chart"] for item in normalized},
+            {"clickhouse", "sentry", "sentry-db", "sentry-kubernetes"},
+        )
+
     def test_unleash_fixture_contains_all_configured_charts(self):
         root = Path(__file__).parents[1]
         configuration = mirror.load_configuration(

@@ -49,6 +49,17 @@
         "*"
       ],
       "exclude": []
+    },
+    {
+      "id": "sentry-kubernetes",
+      "name": "Sentry Kubernetes",
+      "url": "https://sentry-kubernetes.github.io/charts",
+      "destination": "sentry-kubernetes",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
     }
   ]
 }

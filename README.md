@@ -25,6 +25,10 @@ helm install vault \
 helm install unleash \
   oci://ghcr.io/vespersio/helm-charts/unleash/unleash \
   --version 5.6.7
+
+helm install sentry \
+  oci://ghcr.io/vespersio/helm-charts/sentry-kubernetes/sentry \
+  --version 33.1.0
 ```
 
 The source namespace prevents collisions when two upstream repositories expose

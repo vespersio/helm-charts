@@ -1,0 +1,22 @@
+[
+  {
+    "name": "sentry-kubernetes/clickhouse",
+    "version": "4.1.1",
+    "app_version": "23.8.16.16"
+  },
+  {
+    "name": "sentry-kubernetes/sentry",
+    "version": "33.1.0",
+    "app_version": "26.7.1"
+  },
+  {
+    "name": "sentry-kubernetes/sentry-db",
+    "version": "0.9.4",
+    "app_version": "10.0.0"
+  },
+  {
+    "name": "sentry-kubernetes/sentry-kubernetes",
+    "version": "0.4.0",
+    "app_version": "latest"
+  }
+]
