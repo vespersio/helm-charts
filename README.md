@@ -145,6 +145,23 @@ Run tests:
 python3 -m unittest discover -s tests -v
 ```
 
+## Public catalog
+
+The static catalog is generated directly from `config/repositories.json` and
+the successfully published releases recorded in `state/*.json`. It shows the
+latest available version of every chart and does not query GHCR at page load.
+
+Build and preview it locally:
+
+```bash
+python3 scripts/build_catalog.py --output _site
+python3 -m http.server 8000 --directory _site
+```
+
+Then open <http://localhost:8000>. The `Publish catalog` workflow deploys the
+same output to GitHub Pages after source changes and after every synchronization
+workflow completes.
+
 ## GHCR permissions
 
 The workflow uses `GITHUB_TOKEN` with `packages: write` and `contents: write`.

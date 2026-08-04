@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse Helm charts available from the Vespers public OCI mirror.">
+    <meta name="theme-color" content="#071018">
+    <title>Helm OCI Catalog · Vespers</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Vespers Helm catalog home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>vespers<span class="brand-muted">/helm</span></span>
+      </a>
+      <a class="header-link" href="https://github.com/vespersio/helm-charts">
+        View source <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-intro">
+          <div class="eyebrow"><span></span> Public Helm OCI mirror</div>
+          <h1 id="hero-title">Charts, ready<br><em>to pull.</em></h1>
+        </div>
+        <div class="hero-details">
+          <p class="hero-copy">
+            A clean, source-namespaced mirror of trusted upstream Helm charts,
+            published to GHCR and kept in sync automatically.
+          </p>
+
+          <dl class="stats" aria-label="Catalog statistics">
+            <div><dt>Sources</dt><dd>{{SOURCE_COUNT}}</dd></div>
+            <div><dt>Available charts</dt><dd>{{CHART_COUNT}}</dd></div>
+            <div><dt>Published releases</dt><dd>{{VERSION_COUNT}}</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalog-title">
+        <div class="catalog-heading">
+          <div>
+            <p class="section-label">Registry index</p>
+            <h2 id="catalog-title">Available charts</h2>
+          </div>
+          <p class="catalog-note">Showing the latest published version of each chart.</p>
+        </div>
+
+        <div class="controls" role="search">
+          <label class="search-field">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Search catalog</span>
+            <input id="catalog-search" type="search" placeholder="Search charts, sources or versions…" autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+          <label class="source-filter">
+            <span class="visually-hidden">Filter by source</span>
+            <select id="source-filter">
+              <option value="all">All sources</option>
+              {{SOURCE_OPTIONS}}
+            </select>
+          </label>
+        </div>
+
+        <p class="results-status" id="results-status" aria-live="polite"></p>
+        <div class="repository-list" id="repository-list">
+          {{REPOSITORY_CARDS}}
+        </div>
+        <div class="no-results" id="no-results" hidden>
+          <span aria-hidden="true">∅</span>
+          <h3>No matching charts</h3>
+          <p>Try another name, source or version.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Generated from committed mirror state · {{GENERATED_AT}}</p>
+      <p>Artifacts are served from <strong>ghcr.io</strong></p>
+    </footer>
+
+    <div class="toast" id="copy-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
