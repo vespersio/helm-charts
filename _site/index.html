@@ -36,9 +36,9 @@
           </p>
 
           <dl class="stats" aria-label="Catalog statistics">
-            <div><dt>Sources</dt><dd>7</dd></div>
+            <div><dt>Sources</dt><dd>8</dd></div>
             <div><dt>Available charts</dt><dd>77</dd></div>
-            <div><dt>Published releases</dt><dd>81</dd></div>
+            <div><dt>Published releases</dt><dd>86</dd></div>
           </dl>
         </div>
       </section>
@@ -70,6 +70,7 @@
 <option value="sentry-kubernetes">Sentry Kubernetes</option>
 <option value="harbor">Harbor</option>
 <option value="gitlab">GitLab</option>
+<option value="elastic">Elastic</option>
             </select>
           </label>
         </div>
@@ -154,13 +155,13 @@
           <span>Chart</span><span>Latest</span><span>Actions</span>
         </div>
         <ul class="chart-list">
-      <li class="chart-row" data-chart-row data-search="grafana grafana alloy 1.11.0 oci://ghcr.io/vespersio/helm-charts/grafana/alloy">
+      <li class="chart-row" data-chart-row data-search="grafana grafana alloy 1.11.1 1.11.0 oci://ghcr.io/vespersio/helm-charts/grafana/alloy">
         <div class="chart-identity">
           <span class="chart-name">alloy</span>
           <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/alloy</code>
         </div>
-        <span class="version-badge" aria-label="Latest version 1.11.0">
-          1.11.0
+        <span class="version-badge" aria-label="Latest version 1.11.1">
+          1.11.1
         </span>
         <div class="chart-actions">
           <button
@@ -173,12 +174,44 @@
           <button
             class="button button-primary"
             type="button"
-            data-copy="helm install alloy oci://ghcr.io/vespersio/helm-charts/grafana/alloy --version 1.11.0"
+            data-copy="helm install alloy oci://ghcr.io/vespersio/helm-charts/grafana/alloy --version 1.11.1"
             data-copy-label="Copy command"
             aria-label="Copy install command for alloy"
           >Copy command</button>
         </div>
         
+        <details class="version-history">
+          <summary>
+            <span>View all 2 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>1.11.1</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install alloy oci://ghcr.io/vespersio/helm-charts/grafana/alloy --version 1.11.1"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for alloy version 1.11.1"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>1.11.0</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install alloy oci://ghcr.io/vespersio/helm-charts/grafana/alloy --version 1.11.0"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for alloy version 1.11.0"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
       </li>
 
       <li class="chart-row" data-chart-row data-search="grafana grafana alloy-crd 1.0.1 oci://ghcr.io/vespersio/helm-charts/grafana/alloy-crd">
@@ -1121,13 +1154,13 @@
         
       </li>
 
-      <li class="chart-row" data-chart-row data-search="grafana grafana pyroscope 2.2.0 oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope">
+      <li class="chart-row" data-chart-row data-search="grafana grafana pyroscope 2.2.1 2.2.0 oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope">
         <div class="chart-identity">
           <span class="chart-name">pyroscope</span>
           <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope</code>
         </div>
-        <span class="version-badge" aria-label="Latest version 2.2.0">
-          2.2.0
+        <span class="version-badge" aria-label="Latest version 2.2.1">
+          2.2.1
         </span>
         <div class="chart-actions">
           <button
@@ -1140,12 +1173,44 @@
           <button
             class="button button-primary"
             type="button"
-            data-copy="helm install pyroscope oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope --version 2.2.0"
+            data-copy="helm install pyroscope oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope --version 2.2.1"
             data-copy-label="Copy command"
             aria-label="Copy install command for pyroscope"
           >Copy command</button>
         </div>
         
+        <details class="version-history">
+          <summary>
+            <span>View all 2 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>2.2.1</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install pyroscope oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope --version 2.2.1"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for pyroscope version 2.2.1"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>2.2.0</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install pyroscope oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope --version 2.2.0"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for pyroscope version 2.2.0"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
       </li>
 
       <li class="chart-row" data-chart-row data-search="grafana grafana pyroscope-monitoring 0.1.1 oci://ghcr.io/vespersio/helm-charts/grafana/pyroscope-monitoring">
@@ -1557,13 +1622,13 @@
         
       </li>
 
-      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp terraform-enterprise 2.0.4 oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise">
+      <li class="chart-row" data-chart-row data-search="hashicorp hashicorp terraform-enterprise 2.0.5 2.0.4 oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise">
         <div class="chart-identity">
           <span class="chart-name">terraform-enterprise</span>
           <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise</code>
         </div>
-        <span class="version-badge" aria-label="Latest version 2.0.4">
-          2.0.4
+        <span class="version-badge" aria-label="Latest version 2.0.5">
+          2.0.5
         </span>
         <div class="chart-actions">
           <button
@@ -1576,12 +1641,44 @@
           <button
             class="button button-primary"
             type="button"
-            data-copy="helm install terraform-enterprise oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise --version 2.0.4"
+            data-copy="helm install terraform-enterprise oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise --version 2.0.5"
             data-copy-label="Copy command"
             aria-label="Copy install command for terraform-enterprise"
           >Copy command</button>
         </div>
         
+        <details class="version-history">
+          <summary>
+            <span>View all 2 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>2.0.5</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install terraform-enterprise oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise --version 2.0.5"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for terraform-enterprise version 2.0.5"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>2.0.4</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install terraform-enterprise oci://ghcr.io/vespersio/helm-charts/hashicorp/terraform-enterprise --version 2.0.4"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for terraform-enterprise version 2.0.4"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
       </li>
 
       <li class="chart-row" data-chart-row data-search="hashicorp hashicorp vault 0.34.0 oci://ghcr.io/vespersio/helm-charts/hashicorp/vault">
@@ -2174,7 +2271,7 @@
         
       </li>
 
-      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab 10.2.1 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab">
+      <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab 10.2.1 9.11.10 9.11.9 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab">
         <div class="chart-identity">
           <span class="chart-name">gitlab</span>
           <code class="chart-uri">oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab</code>
@@ -2199,6 +2296,50 @@
           >Copy command</button>
         </div>
         
+        <details class="version-history">
+          <summary>
+            <span>View all 3 versions</span>
+            <span class="history-chevron" aria-hidden="true"></span>
+          </summary>
+          <ol>
+            <li>
+              <div class="history-version">
+                <code>10.2.1</code><span class="history-latest">Latest</span>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install gitlab oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab --version 10.2.1"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for gitlab version 10.2.1"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>9.11.10</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install gitlab oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab --version 9.11.10"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for gitlab version 9.11.10"
+              >Copy command</button>
+            </li>
+            <li>
+              <div class="history-version">
+                <code>9.11.9</code>
+              </div>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-copy="helm install gitlab oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab --version 9.11.9"
+                data-copy-label="Copy command"
+                aria-label="Copy install command for gitlab version 9.11.9"
+              >Copy command</button>
+            </li>
+          </ol>
+        </details>
       </li>
 
       <li class="chart-row" data-chart-row data-search="gitlab gitlab gitlab-agent 2.29.0 oci://ghcr.io/vespersio/helm-charts/gitlab/gitlab-agent">
@@ -2445,6 +2586,32 @@
       </li>
         </ul>
     </article>
+
+    <article
+      class="repo-card"
+      data-repository="elastic"
+      data-search="elastic elastic https://helm.elastic.co oci://ghcr.io/vespersio/helm-charts/elastic"
+    >
+      <header class="repo-header">
+        <div>
+          <div class="repo-title-line">
+            <h2>Elastic</h2>
+            <span class="status-pill status-syncing">
+              <span class="status-dot" aria-hidden="true"></span>Initial sync
+            </span>
+          </div>
+          <a class="upstream-link" href="https://helm.elastic.co" rel="noreferrer">
+            https://helm.elastic.co<span aria-hidden="true"> ↗</span>
+          </a>
+        </div>
+        <span class="repo-count">0 charts</span>
+      </header>
+      
+        <div class="repo-empty" data-empty-repository>
+          <span class="empty-pulse" aria-hidden="true"></span>
+          <div><strong>Nothing to install yet</strong><p>No charts have been published yet. The first synchronization will make them appear here.</p></div>
+        </div>
+    </article>
         </div>
         <div class="no-results" id="no-results" hidden>
           <span aria-hidden="true">∅</span>
@@ -2455,7 +2622,7 @@
     </main>
 
     <footer>
-      <p>Generated from committed mirror state · 2026-08-04 18:15 UTC</p>
+      <p>Generated from committed mirror state · 2026-08-10 10:58 UTC</p>
       <p>Artifacts are served from <strong>ghcr.io</strong></p>
     </footer>
 

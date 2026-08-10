@@ -82,6 +82,17 @@
         "*"
       ],
       "exclude": []
+    },
+    {
+      "id": "elastic",
+      "name": "Elastic",
+      "url": "https://helm.elastic.co",
+      "destination": "elastic",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
     }
   ]
 }
