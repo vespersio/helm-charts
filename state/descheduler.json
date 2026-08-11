@@ -1,6 +1,41 @@
 {
   "schema": 2,
-  "initialized": false,
-  "published": {},
-  "skipped": []
+  "initialized": true,
+  "published": {
+    "descheduler@0.36.0": "sha256:fae31d330236c0dee087241e0861759df16235c1f4d4c5a149d83788997b6b8f"
+  },
+  "skipped": [
+    "descheduler@0.18.2",
+    "descheduler@0.19.2",
+    "descheduler@0.20.0",
+    "descheduler@0.21.0",
+    "descheduler@0.22.0",
+    "descheduler@0.22.1",
+    "descheduler@0.23.0",
+    "descheduler@0.23.1",
+    "descheduler@0.23.2",
+    "descheduler@0.24.0",
+    "descheduler@0.24.1",
+    "descheduler@0.25.0",
+    "descheduler@0.25.1",
+    "descheduler@0.25.2",
+    "descheduler@0.26.0",
+    "descheduler@0.26.1",
+    "descheduler@0.27.0",
+    "descheduler@0.27.1",
+    "descheduler@0.28.0",
+    "descheduler@0.28.1",
+    "descheduler@0.29.0",
+    "descheduler@0.30.0",
+    "descheduler@0.30.1",
+    "descheduler@0.30.2",
+    "descheduler@0.31.0",
+    "descheduler@0.32.0",
+    "descheduler@0.32.1",
+    "descheduler@0.32.2",
+    "descheduler@0.33.0",
+    "descheduler@0.34.0",
+    "descheduler@0.35.0",
+    "descheduler@0.35.1"
+  ]
 }
