@@ -7,6 +7,17 @@
   },
   "repositories": [
     {
+      "id": "descheduler",
+      "name": "Descheduler",
+      "url": "https://kubernetes-sigs.github.io/descheduler/",
+      "destination": "descheduler",
+      "enabled": true,
+      "include": [
+        "descheduler"
+      ],
+      "exclude": []
+    },
+    {
       "id": "external-dns",
       "name": "ExternalDNS",
       "url": "https://kubernetes-sigs.github.io/external-dns/",
