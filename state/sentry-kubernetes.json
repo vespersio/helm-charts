@@ -5,7 +5,9 @@
     "clickhouse@4.1.1": "sha256:e058517aeb42cfa1596a75413a61f1999eb16871fbf90d30f1b68b367e4d1e6f",
     "sentry-db@0.9.4": "sha256:eb8fa75235442f43d3c2000473eef60e10ed58ce5eb1de506f8d5054c8379be4",
     "sentry-kubernetes@0.4.0": "sha256:af4cf48a4d17d0ec0318c2e37807edf04baaceafc1f42110b64f43153b161be1",
-    "sentry@33.1.0": "sha256:18ea8b03e45e65d4d024a5399a46e0b48184b30dee547fa9efb0dc764e97598f"
+    "sentry@33.1.0": "sha256:18ea8b03e45e65d4d024a5399a46e0b48184b30dee547fa9efb0dc764e97598f",
+    "sentry@33.2.0": "sha256:143c2b255f837fcf0d379c27268d75cb0ff4122108b15591d7a3fb5f45838dc5",
+    "sentry@33.3.0": "sha256:3cc2fac7bc3cd7561756e27ab29f480ed8a623242f1dac2176a0af0211f25710"
   },
   "skipped": [
     "clickhouse@1.0.0",
