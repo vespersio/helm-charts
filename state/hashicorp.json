@@ -5,7 +5,10 @@
     "boundary-controller@0.1.1": "sha256:1e307b3e62967fcb17e46e3e79898a4ad7edda48c0eee05e3102956bb9184e3c",
     "boundary-worker@0.1.0": "sha256:694a9a224a6949557643e82f7c03a0d0b417c91d1e9b7778d460482b10ed89d4",
     "boundary-worker@0.1.1": "sha256:1530510d1c8941de814863c03e5a2c6fd8867783ed1695bfce64ae120b893112",
+    "consul@1.8.16": "sha256:91f029d468e3272f879a676b51094fc0763062644bb68acd5563dc1faccc8eea",
+    "consul@1.9.11": "sha256:dc8560492ad638310adadad69d2f5e4708824ca211df387cb9c0f7d1e63a36f1",
     "consul@2.0.2": "sha256:36216aad9b6e17f12cccc51e42ffce4f57bb26512be7e8ce5cd0a11bfb82fb98",
+    "consul@2.0.3": "sha256:0d10c82b26fd15221753d4d5bc1313e220c2d7dfdf5ceb34261bec2b2a089949",
     "hcp-terraform-operator@2.12.0": "sha256:9271eac784e41ddd554b12002ce6b8e93e19ea63755e0f4007bd7b4351b8b383",
     "terraform-cloud-operator@2.5.0": "sha256:76557dcdf7bc466e8044debd422243b6d0fbab92cfcc34248c736d762fbb7b4f",
     "terraform-enterprise@2.0.4": "sha256:21ce451f3bb761d182cedde1038dd30416fd66c1b7e5eb08aa76d9903357a52d",
@@ -14,6 +17,7 @@
     "vault-radar-agent@0.1.0": "sha256:1648239e6bde7dedee6f3c238afeedc71a0f02e4d2f358d984bf83c71ec10074",
     "vault-secrets-gateway@0.0.2": "sha256:3aab57cff35ddbaf155e23451f39845728c62082d0753253a16bd55679f4428c",
     "vault-secrets-operator@1.5.0": "sha256:4f822615d9346fd4f8b96b8852cc44c83042a2f1511515e2631ec2fd1da03d80",
+    "vault-secrets-operator@1.5.1": "sha256:192f45009f340eb2633e344798fa3a33b39ef5e71acb8f46c52bb7bbd59cc30b",
     "vault@0.34.0": "sha256:a716f4fa8bb80e450ce7c0f9de7b475183c47437a162eee744cd40bf991244e9",
     "waypoint@0.1.21": "sha256:fd368ac6c6ee3f76a624579e732d14608ae78f5cc5d93ed862b04e3a9084fcd9"
   },
