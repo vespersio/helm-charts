@@ -104,6 +104,17 @@
         "*"
       ],
       "exclude": []
+    },
+    {
+      "id": "fairwinds",
+      "name": "Fairwinds",
+      "url": "https://charts.fairwinds.com/stable",
+      "destination": "fairwinds",
+      "enabled": true,
+      "include": [
+        "*"
+      ],
+      "exclude": []
     }
   ]
 }
