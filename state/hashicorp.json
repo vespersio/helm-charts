@@ -19,6 +19,7 @@
     "vault-secrets-operator@1.5.0": "sha256:4f822615d9346fd4f8b96b8852cc44c83042a2f1511515e2631ec2fd1da03d80",
     "vault-secrets-operator@1.5.1": "sha256:192f45009f340eb2633e344798fa3a33b39ef5e71acb8f46c52bb7bbd59cc30b",
     "vault@0.34.0": "sha256:a716f4fa8bb80e450ce7c0f9de7b475183c47437a162eee744cd40bf991244e9",
+    "vault@0.34.1": "sha256:df4c37fac32496892ff1e1d6fd7954d3a402cc7b1b2b4c2226af11b8a57564c4",
     "waypoint@0.1.21": "sha256:fd368ac6c6ee3f76a624579e732d14608ae78f5cc5d93ed862b04e3a9084fcd9"
   },
   "skipped": [

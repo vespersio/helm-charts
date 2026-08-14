@@ -5,7 +5,8 @@
     "unleash-edge@3.2.0": "sha256:f5dada34fc13962cadb31e55a3ba48b82ece4acebd491cb9113354e99a85f3dc",
     "unleash-enterprise@1.0.3": "sha256:76a4ff0374809c09752fb5f9fdfa16cd15457505dd97dbea452f82cb46580c11",
     "unleash-proxy@0.8.12": "sha256:1a58942f3fa64e6c7633a873b0861be26a92ac4517fc1bbb02c4e08f93dcf09e",
-    "unleash@5.6.7": "sha256:ff20297ca4445c78a4dc72c2f86cb6e2e4a201cd0ecbed18a15091ab4c44acfc"
+    "unleash@5.6.7": "sha256:ff20297ca4445c78a4dc72c2f86cb6e2e4a201cd0ecbed18a15091ab4c44acfc",
+    "unleash@5.6.8": "sha256:f557b735dcaf060943fb072d9158888870b257e97dcf294b76e312f55d36ddb0"
   },
   "skipped": [
     "unleash-edge@1.0.0",
