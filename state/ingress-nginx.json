@@ -1,6 +1,17 @@
 {
   "schema": 2,
   "initialized": false,
-  "published": {},
+  "published": {
+    "ingress-nginx@4.13.8": "sha256:8f79438363f24f792e26960e152de0e4e6318c29d839d127d52a0e4f5006e262",
+    "ingress-nginx@4.13.9": "sha256:7ce22bb351c43ec6639585efc22134822ce74c05aeaabde88c5cb3477fd0c75c",
+    "ingress-nginx@4.14.0": "sha256:d35423da562d1ab66c17feb11374c1c5f4c28c67d77541035deb9dd3023f01e7",
+    "ingress-nginx@4.14.1": "sha256:a6737f43131ed85ab818f7f368d51da91755d7456e08e84c82802aa3885f37b9",
+    "ingress-nginx@4.14.2": "sha256:2e47e838f2f93bf4a01a8dcdf046cd9c0a3d8bcfd70770422996b7b355a30e4e",
+    "ingress-nginx@4.14.3": "sha256:9c97600b234c70ceffb9adce5c66a6e97e69e2706499bb0308215db4a310769f",
+    "ingress-nginx@4.14.4": "sha256:5a0c166e8b1cf44a91198b30f44998ff52d67ce4783cc59c53d4a2880639de68",
+    "ingress-nginx@4.14.5": "sha256:93ea7cf2677577a489e14fc94d6026a1194cf2e453dc86bf43da7162109f0d59",
+    "ingress-nginx@4.15.0": "sha256:73472a2aea911d2fb9be8e5658f9ff890dc8b9bebce8fe1f226a1b02f9754ec1",
+    "ingress-nginx@4.15.1": "sha256:3eff0bd18151d6e6b1c441463410571443dda1ac78292cb189346628de784f0c"
+  },
   "skipped": []
 }
