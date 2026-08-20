@@ -18,6 +18,7 @@ This repository mirrors upstream Helm charts into source-namespaced GHCR OCI rep
 
 - Keep the runtime compatible with Python 3.12 and prefer the standard library; the workflows install no Python dependencies.
 - Preserve strict validation of configuration, state, and plan schemas. Add or update tests for behavior changes and invalid-input cases.
+- When adding a repository, also create `state/<id>.json` with schema 2, `initialized` set to `false`, an empty `published` object, and an empty `skipped` array; keep `<id>` aligned with the repository `id`.
 - Do not publish charts, log in to GHCR, or modify publication state unless the task explicitly requires it. Use fixtures or `--dry-run` for local checks.
 - When changing catalog markup, styles, scripts, configuration, or state, edit the source files only. CI regenerates `_site/` before publishing GitHub Pages.
 - Keep changes focused; do not commit temporary plans, caches, downloaded chart archives, or credentials.

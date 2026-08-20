@@ -29,6 +29,17 @@
       "exclude": []
     },
     {
+      "id": "ingress-nginx",
+      "name": "Ingress NGINX",
+      "url": "https://kubernetes.github.io/ingress-nginx",
+      "destination": "ingress-nginx",
+      "enabled": true,
+      "include": [
+        "ingress-nginx"
+      ],
+      "exclude": []
+    },
+    {
       "id": "grafana",
       "name": "Grafana",
       "url": "https://grafana.github.io/helm-charts",
