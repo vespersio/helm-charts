@@ -15,6 +15,7 @@
     "fairwinds-insights@9.21.6": "sha256:912e6b48961bc63d46126e7a0f614198f628782ddf05b6512564b68ae18a5c63",
     "fairwinds-insights@9.22.0": "sha256:d9cf6efeced59520b8468c0edb1a5c5cf1053179cfb7ae4e17ed2e6e0540ee8e",
     "fairwinds-insights@9.22.1": "sha256:cdc448af1fb1b3e57380616c79c779feb9691f1aa76f2ed8fd3c8c16c5af91d1",
+    "fairwinds-insights@9.22.2": "sha256:2ba322caa45cdb0e44accac692e4c9b44d7b81c00c5bc0e203dceecfccd56b80",
     "gemini@2.2.0": "sha256:4f413efb84622d17d5c50d117403edce1bd7c844505c7763ed451a8ab64ae4d4",
     "gke-node-termination-handler@1.2.7": "sha256:02b3baae36347a433d8baa365a20c86fc4ad06b63a076b37ff2f96933c7e02fa",
     "goldilocks@10.5.0": "sha256:de21a88c57550f88c8c7728f3671e7f32d6c61a4c74525de7fe89321d9bb0672",
@@ -25,6 +26,7 @@
     "insights-agent@6.2.0": "sha256:407e5f4334694a214f455e0636bbf9becdcf850c02fc6210b134e813882e1550",
     "insights-agent@6.3.0": "sha256:2774c407c7380483508fc885a097393115bcaa335d1041692d7484d030fe2a13",
     "insights-agent@6.4.0": "sha256:54a2003b7ef0a0bfbaee720bb25dee575dbadf0f27bea148250a4372ef307be6",
+    "insights-agent@6.5.0": "sha256:cc795bd9d9e6a80ebfa35570202279cfda37c9cc68fbf7dbfb1384cef1cb7fe7",
     "polaris@6.0.0": "sha256:8496b9f8447d49a6e765b722ee80e7ccfb71297525f8665e79b8142642141822",
     "rbac-manager@2.0.0": "sha256:d87bb47bc8e8b60eeac6380592e64ea5cf39c673bb36e2bc100327c13cdfdd71",
     "vpa@5.0.0": "sha256:e95b0a0de93a4a61889cca4964c40cd2df6766636c5e1e2eab4bfaa46cc96a87"
