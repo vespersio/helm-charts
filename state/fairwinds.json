@@ -7,6 +7,8 @@
     "ecr-cleanup@1.2.8": "sha256:969636f6ea8a27a9b03493f4cd8d7883d815734eb8d37cb2d7764117ba5b2644",
     "fairwinds-insights@10.0.0": "sha256:9f45e34c84110ddc390e07f77f06ff30cf528cb4a06867c9ea249fc16b48b82b",
     "fairwinds-insights@10.0.1": "sha256:041339380374fd210800bd01eaad7730b8e19552ecd20c1bca19e0761f44914e",
+    "fairwinds-insights@10.0.2": "sha256:16876d72cce98eae12cb439a3b1161829bebd7635b0dfd95fad05f79334c7090",
+    "fairwinds-insights@10.0.3": "sha256:ed05f6ff732eef51bc6fb342edc73e7cb9621e15ff6910e7919b999de9f00295",
     "fairwinds-insights@9.20.1": "sha256:4a1ee81666989ad91edb0f7452dc8b43958f5774c2f567485c4ecb52ca99592d",
     "fairwinds-insights@9.21.0": "sha256:53e4f3348a8f9043c0cda697c0032f843f4e246711a889eacc5c6956f52cdfb4",
     "fairwinds-insights@9.21.1": "sha256:2a0ab201b25cf05a23ab97dda4d2fe3530e94c3623107810ee8511b6df5eccae",
