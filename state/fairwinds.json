@@ -9,6 +9,8 @@
     "fairwinds-insights@10.0.1": "sha256:041339380374fd210800bd01eaad7730b8e19552ecd20c1bca19e0761f44914e",
     "fairwinds-insights@10.0.2": "sha256:16876d72cce98eae12cb439a3b1161829bebd7635b0dfd95fad05f79334c7090",
     "fairwinds-insights@10.0.3": "sha256:ed05f6ff732eef51bc6fb342edc73e7cb9621e15ff6910e7919b999de9f00295",
+    "fairwinds-insights@10.1.0": "sha256:1034e5da8ce8f4fa8ec5d54b76f122fa405d0e63c42d41607cb18a6195d53050",
+    "fairwinds-insights@10.1.1": "sha256:a20e4410f66d74b5d6efbc8d4880caec9897354199293eef2fee93d9b9a210e1",
     "fairwinds-insights@9.20.1": "sha256:4a1ee81666989ad91edb0f7452dc8b43958f5774c2f567485c4ecb52ca99592d",
     "fairwinds-insights@9.21.0": "sha256:53e4f3348a8f9043c0cda697c0032f843f4e246711a889eacc5c6956f52cdfb4",
     "fairwinds-insights@9.21.1": "sha256:2a0ab201b25cf05a23ab97dda4d2fe3530e94c3623107810ee8511b6df5eccae",
@@ -33,6 +35,8 @@
     "insights-agent@6.3.0": "sha256:2774c407c7380483508fc885a097393115bcaa335d1041692d7484d030fe2a13",
     "insights-agent@6.4.0": "sha256:54a2003b7ef0a0bfbaee720bb25dee575dbadf0f27bea148250a4372ef307be6",
     "insights-agent@6.5.0": "sha256:cc795bd9d9e6a80ebfa35570202279cfda37c9cc68fbf7dbfb1384cef1cb7fe7",
+    "insights-agent@6.6.0": "sha256:3fd7d6e6678c31d3e9b6e8f43e13061717b31981191b413c332bbc71bb49a62c",
+    "insights-agent@6.7.0": "sha256:880fe128af900bc017afc91202975afeb0639274afcdd862da5a9ecf96e517e5",
     "polaris@6.0.0": "sha256:8496b9f8447d49a6e765b722ee80e7ccfb71297525f8665e79b8142642141822",
     "rbac-manager@2.0.0": "sha256:d87bb47bc8e8b60eeac6380592e64ea5cf39c673bb36e2bc100327c13cdfdd71",
     "vpa@5.0.0": "sha256:e95b0a0de93a4a61889cca4964c40cd2df6766636c5e1e2eab4bfaa46cc96a87"
