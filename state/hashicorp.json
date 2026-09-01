@@ -14,6 +14,7 @@
     "terraform-cloud-operator@2.5.0": "sha256:76557dcdf7bc466e8044debd422243b6d0fbab92cfcc34248c736d762fbb7b4f",
     "terraform-enterprise@2.0.4": "sha256:21ce451f3bb761d182cedde1038dd30416fd66c1b7e5eb08aa76d9903357a52d",
     "terraform-enterprise@2.0.5": "sha256:84bab16395577b996dbfe2bea63156a9663b72376ce6001eaf96daf74bbb75b2",
+    "terraform-enterprise@2.0.6": "sha256:0fa978b60146ddbec90292cc86acba75bc7194d1e0991101eeabc74fb047cce5",
     "terraform@1.1.2": "sha256:9115fecf667f3d41a5a1c5833de948ef699321a6165be7bebe4976a7279702d5",
     "vault-radar-agent@0.1.0": "sha256:1648239e6bde7dedee6f3c238afeedc71a0f02e4d2f358d984bf83c71ec10074",
     "vault-secrets-gateway@0.0.2": "sha256:3aab57cff35ddbaf155e23451f39845728c62082d0753253a16bd55679f4428c",
