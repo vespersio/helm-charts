@@ -15,6 +15,7 @@
     "fairwinds-insights@10.1.3": "sha256:d3b2cbd93b7f94295585df477635c7df3cbdfa22e819ac6508d9a4366d48765d",
     "fairwinds-insights@10.1.4": "sha256:10e950b926f64d7097efa6aae4a790de2f5019599a9f18842db05cadf3f880ad",
     "fairwinds-insights@10.1.5": "sha256:f600f27102af50824a0b47c0ecad50c7ff5ff5675de732cd5349dc27e8a566e1",
+    "fairwinds-insights@10.1.6": "sha256:63209358aebeb6e8709f9b6a90f0104b26d338eeff50b73cd9b1c1024c28f441",
     "fairwinds-insights@9.20.1": "sha256:4a1ee81666989ad91edb0f7452dc8b43958f5774c2f567485c4ecb52ca99592d",
     "fairwinds-insights@9.21.0": "sha256:53e4f3348a8f9043c0cda697c0032f843f4e246711a889eacc5c6956f52cdfb4",
     "fairwinds-insights@9.21.1": "sha256:2a0ab201b25cf05a23ab97dda4d2fe3530e94c3623107810ee8511b6df5eccae",
@@ -35,9 +36,11 @@
     "goldilocks@11.0.0": "sha256:fde2e6fd1d3ad7203144cfb887570dab34ed2899ae027722641427d80120e922",
     "goldilocks@11.1.0": "sha256:edb2598d7cb855f26407fd0c30d25aec5a2af55a9d0afa0379034a78d4318722",
     "helm-release-pruner@4.1.0": "sha256:c02be76e60511d99c7174d5679b8dc392417f5f7eb6aa7b28a4079c21ae36a72",
+    "helm-release-pruner@4.1.1": "sha256:e4bbd5bf8c311b99db6b4c043b0d6c93a0ec0f2c08578b19ca56bd3f806286c3",
     "insights-admission@2.0.0": "sha256:d9f0a8756716988a832336c395208ea7e2eba1d75b4f1e67952fe8c7ae31b209",
     "insights-agent@6.10.0": "sha256:edee1240b219bf537a49fa04925b2dd69643eca1dd8f8162c92c644f679bbfa0",
     "insights-agent@6.11.0": "sha256:27c72fbe2a1ad5d3e17358319fac33a1bad37644a1ff8b8ccf36ee7e94f14e92",
+    "insights-agent@6.12.0": "sha256:277808bfa01761fbbd57ce150a5d04a6ac84aab91789f284a35c7977d94c1067",
     "insights-agent@6.2.0": "sha256:407e5f4334694a214f455e0636bbf9becdcf850c02fc6210b134e813882e1550",
     "insights-agent@6.3.0": "sha256:2774c407c7380483508fc885a097393115bcaa335d1041692d7484d030fe2a13",
     "insights-agent@6.4.0": "sha256:54a2003b7ef0a0bfbaee720bb25dee575dbadf0f27bea148250a4372ef307be6",
@@ -47,7 +50,8 @@
     "insights-agent@6.8.0": "sha256:5581c1ff3430be1e3ef7f8f8a3b8044fdaba692cfd371cdaa4bc6d102576420a",
     "polaris@6.0.0": "sha256:8496b9f8447d49a6e765b722ee80e7ccfb71297525f8665e79b8142642141822",
     "rbac-manager@2.0.0": "sha256:d87bb47bc8e8b60eeac6380592e64ea5cf39c673bb36e2bc100327c13cdfdd71",
-    "vpa@5.0.0": "sha256:e95b0a0de93a4a61889cca4964c40cd2df6766636c5e1e2eab4bfaa46cc96a87"
+    "vpa@5.0.0": "sha256:e95b0a0de93a4a61889cca4964c40cd2df6766636c5e1e2eab4bfaa46cc96a87",
+    "vpa@5.0.1": "sha256:62e23fc4dc307ae8989e7020da800d029783391e316f19fb95a250e441abe2a4"
   },
   "skipped": [
     "astro@1.0.1",
