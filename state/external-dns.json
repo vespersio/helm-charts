@@ -2,7 +2,8 @@
   "schema": 2,
   "initialized": true,
   "published": {
-    "external-dns@1.21.1": "sha256:5dd033a4b872bf641860695705ee460031d0bc695f114bf8926fee6736814e19"
+    "external-dns@1.21.1": "sha256:5dd033a4b872bf641860695705ee460031d0bc695f114bf8926fee6736814e19",
+    "external-dns@1.22.0": "sha256:ec26bba67e02f46a55ac33790ad9d9ded724a163af6f6b4a63ce68f883201f4f"
   },
   "skipped": [
     "external-dns@1.10.0",
