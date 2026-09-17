@@ -810,10 +810,12 @@
     "profiling-agent@9.4.4": "sha256:74aceadcfadd6dcd6e9e26ed6c7a63c1e7d63f8ae78eec55af51e54c36c8ebdb",
     "profiling-agent@9.4.5": "sha256:97bdfe10733db9db477da393743413ef4f67405e9942d0e6658ff196e62fc407",
     "profiling-agent@9.4.6": "sha256:4633e0d7dfd29528099b61c807ba7faa923c388e66f80c5e96dec4bf8ed549d1",
+    "profiling-agent@9.4.7": "sha256:3fe0ab937a3143e4d3341d739d1ee9789c5f1e5f957894e335305abc447a3625",
     "profiling-agent@9.5.0": "sha256:56cf90fb3ab71836f4e8477346b8ba6d9d06c30b17e30efa32b1710536f37719",
     "profiling-agent@9.5.1": "sha256:22eecc0da7d11d3a6c2e9f0c39d655f33d0ca1dd8180e1787091bc3a8a3135a8",
     "profiling-agent@9.5.2": "sha256:523eba81e824244e417d78060c21d6d41d01d5d48b7e8d963766a7fa077edc2e",
     "profiling-agent@9.5.3": "sha256:7ea2fa2e57039e5ae81b6c6796272263e82c5011ffb8ae2331998d0f517d30fb",
+    "profiling-agent@9.5.4": "sha256:69cc0463c2319e420f91509db38f6b9f05def2630e06bae2703865955c13990d",
     "profiling-collector@8.12.0": "sha256:90188ec07e505dfd3b38681b14e64572e0e2f8cd8156f7acac961efb86028328",
     "profiling-collector@8.12.1": "sha256:89eaf9b83c97955e263563503ea676275c10a9e6a2ea3a98be973021fe423365",
     "profiling-collector@8.12.2": "sha256:efc1be6f64d31a800efaea6a7967a26ed917ddf7f34583e44502a8e9687bc75b",
@@ -919,10 +921,12 @@
     "profiling-collector@9.4.4": "sha256:45a93925368f593c6c7cd0ab1905c9e1c40756c3b454fe680dffe5be1ea7d7cc",
     "profiling-collector@9.4.5": "sha256:59555a3e122bdac519ca371ee245bc50cef353a8f86708a7d79e30da3fb78970",
     "profiling-collector@9.4.6": "sha256:c181cb00ffbeb3b216aea73c085d67771886411ca0b71801bdd1ba16e7fce6fd",
+    "profiling-collector@9.4.7": "sha256:cbcaf3298127e1e35c1e439dcc65f59352fc1d0cf84ae816cc23ae1b9875e16f",
     "profiling-collector@9.5.0": "sha256:500602bb8fd2b4744917b0059503f9b7ebe3ad9935d17ad5970b175abc4bd50c",
     "profiling-collector@9.5.1": "sha256:dce963bc7fc9260c65dd8632ff41b351ef7b2d035b7ecb5a5a63b621533f3b8e",
     "profiling-collector@9.5.2": "sha256:f7d292e20f44f97113968c324231243f5a5af5739a5f98692ffad6cef51f7956",
     "profiling-collector@9.5.3": "sha256:098f912ed0fac915ea6568d7af5b0e4627dee890c231fd331d2057e1528ea530",
+    "profiling-collector@9.5.4": "sha256:24885d58aa11e311397c32bf61cf12ffb5461671a2710c5a912bb5441df24f53",
     "profiling-symbolizer@8.12.0": "sha256:68023b8bef58467eb8840536a42b35cc262a4d0678a8514886e6527fed357aae",
     "profiling-symbolizer@8.12.1": "sha256:75007bb9c9a0aba20843e63e85e91eb8a6d35b7c904e2007bfa1728170c81568",
     "profiling-symbolizer@8.12.2": "sha256:987c22181c7c3c718c6d4d08dd4a6b4d2e0a521bb7c1b636798e7d754f6a2711",
@@ -1029,9 +1033,11 @@
     "profiling-symbolizer@9.4.4": "sha256:ae9e069fc2e219e3e2e6288ed947d2375d8f41ef7a457f034ee0526a245a3dd5",
     "profiling-symbolizer@9.4.5": "sha256:1b2255d71eb0e434c673c76df01f965cd6b7c5a925c03d0b8ef5a5d1eb6e45f5",
     "profiling-symbolizer@9.4.6": "sha256:a619eee8a90643b24016e1f091450f09ce40257f4c53463eb3daafa9713ed9cf",
+    "profiling-symbolizer@9.4.7": "sha256:7192ed5e081ad0617ff8267b90245e8eeb6951c593c2a3359389c9d505385bf1",
     "profiling-symbolizer@9.5.0": "sha256:565b9b366daa7f30a9ee925eb8a764489980b12eafae9250c7c56184d1ce2002",
     "profiling-symbolizer@9.5.1": "sha256:79463d114fd9ff379ae46d8a3a7b8a9cab04aacb55a8fc0864e5802fb9b7a474",
-    "profiling-symbolizer@9.5.3": "sha256:7f7e01a01f008b079f8c0761a6060e9deab9ca29dae7e78d769bf955265142e4"
+    "profiling-symbolizer@9.5.3": "sha256:7f7e01a01f008b079f8c0761a6060e9deab9ca29dae7e78d769bf955265142e4",
+    "profiling-symbolizer@9.5.4": "sha256:22a4965d738bebe79871cb41eab5c5e831f435a2d680691ef7fe9e0c75460377"
   },
   "skipped": []
 }
