@@ -9,6 +9,7 @@
     "gitlab-agent@2.29.0": "sha256:3becfa3885c505bec6017f7e24c67aef14032bdf16a45dd70cadf3aee2d00dc0",
     "gitlab-agent@2.30.0": "sha256:cd3aece0d691dc4137e6fa9ca2de742634f466ae724f3c4d087ddab49a2a92f0",
     "gitlab-agent@2.31.0": "sha256:01d7011d8fc7442a5fdb4ee0bfc5ec894f5f8f62503691b912eaff3e8cead979",
+    "gitlab-agent@2.32.0": "sha256:fdb1e5e12b448821efcc83fc32cff030f482cb8a1005c5c197aa3ed6c01427b2",
     "gitlab-omnibus@0.1.37": "sha256:0b67bf7e790e526672c7d8dfdb59e918b9f83e710a359dcaf6d10a6e2433616c",
     "gitlab-operator@3.1.3": "sha256:21b9df631e9076d60114d229540792f13c9130d0658fbd18e187377e957db989",
     "gitlab-operator@3.2.1": "sha256:eaa71a90c564210ab150fbd35b13ebeb7cdd58a157535e29ba030571af0647c5",
