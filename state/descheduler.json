@@ -2,7 +2,8 @@
   "schema": 2,
   "initialized": true,
   "published": {
-    "descheduler@0.36.0": "sha256:fae31d330236c0dee087241e0861759df16235c1f4d4c5a149d83788997b6b8f"
+    "descheduler@0.36.0": "sha256:fae31d330236c0dee087241e0861759df16235c1f4d4c5a149d83788997b6b8f",
+    "descheduler@0.37.0": "sha256:adfcd1d2820e1ad08dafe95b5959c83c721e8710dd6fcbe3ee4a8881be4f8658"
   },
   "skipped": [
     "descheduler@0.18.2",
