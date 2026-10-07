@@ -52,6 +52,7 @@
     "meta-monitoring@1.3.0": "sha256:2e97fe3091b8409bb06f91d9fbcef780e8d218d1c74bfb1c7d3220adff6c64a0",
     "mimir-distributed@6.1.0": "sha256:764be94a7e93a80af0ccd497436778fbd6c9211165aaa143549b2d6e64dc108c",
     "mimir-distributed@6.2.0": "sha256:6ef7fd69c66a8006e2346408feef48c47ec86c5675e1f1ef0a2cb5116348cbc6",
+    "mimir-distributed@6.2.1": "sha256:20ad72a2d365adc876418a835720f0a0e8a7de9d26acd1310d122c9b9c05ea9f",
     "mimir-openshift-experimental@2.1.0": "sha256:6b7bacc82b42de36ffe423431088aeabf51af00d31fe144cd3bc06ee0bddd866",
     "oncall@1.16.5": "sha256:7bca60cf446d1963f403f86aa5eafe14020dc8cc9711a664c3917a7d8e437bdc",
     "pdc-agent@0.2.0": "sha256:2303a5f35b28e3e59fd3b709f1cb28b6796259087e527f1c90211ea58d7b8045",
