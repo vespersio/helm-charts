@@ -3,6 +3,7 @@
   "initialized": true,
   "published": {
     "boundary-controller@0.1.1": "sha256:1e307b3e62967fcb17e46e3e79898a4ad7edda48c0eee05e3102956bb9184e3c",
+    "boundary-controller@0.2.0": "sha256:3eb82864be45c84a7938906e6df6e9249e0bc49306bb21cbb0242b24499c5209",
     "boundary-worker@0.1.0": "sha256:694a9a224a6949557643e82f7c03a0d0b417c91d1e9b7778d460482b10ed89d4",
     "boundary-worker@0.1.1": "sha256:1530510d1c8941de814863c03e5a2c6fd8867783ed1695bfce64ae120b893112",
     "boundary-worker@0.2.0": "sha256:33162237456238fd430bc2e12f68e4f2325fc24ec83bbe196f9c2c82666cf8d9",
