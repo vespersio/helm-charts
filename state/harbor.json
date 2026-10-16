@@ -2,7 +2,8 @@
   "schema": 2,
   "initialized": true,
   "published": {
-    "harbor@1.19.2": "sha256:36d8eeb41b4df1aeff18c9af7709110a2fac2194b491d37957822b3359cd5e9a"
+    "harbor@1.19.2": "sha256:36d8eeb41b4df1aeff18c9af7709110a2fac2194b491d37957822b3359cd5e9a",
+    "harbor@1.19.4": "sha256:759872bbabaf05524268096b9d551a480d3f6814d13ed08723036e2673859182"
   },
   "skipped": [
     "harbor@1.0.0",

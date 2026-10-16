@@ -2,7 +2,8 @@
   "schema": 2,
   "initialized": true,
   "published": {
-    "headlamp@0.45.0": "sha256:38c619e0ed5db4164b02c353bcbb24e8157c1d98d961b292f99d68cc9316b8eb"
+    "headlamp@0.45.0": "sha256:38c619e0ed5db4164b02c353bcbb24e8157c1d98d961b292f99d68cc9316b8eb",
+    "headlamp@0.46.0": "sha256:faa471a8c5c55125b3dceed1cf73000e1ced18f07e2088e5e12e75292fb9ae62"
   },
   "skipped": [
     "headlamp@0.1.1",
