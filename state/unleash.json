@@ -3,10 +3,14 @@
   "initialized": true,
   "published": {
     "unleash-edge@3.2.0": "sha256:f5dada34fc13962cadb31e55a3ba48b82ece4acebd491cb9113354e99a85f3dc",
+    "unleash-edge@3.2.1": "sha256:28997618b913453534ac9487088a1c3f3af58ad6ff31591b08dbd0cad6f1b5f5",
     "unleash-enterprise@1.0.3": "sha256:76a4ff0374809c09752fb5f9fdfa16cd15457505dd97dbea452f82cb46580c11",
+    "unleash-enterprise@1.0.4": "sha256:4ff1701c9385c02496e26c898d91cabe55e5518a3d3d3dceda210bbd0430fc24",
     "unleash-proxy@0.8.12": "sha256:1a58942f3fa64e6c7633a873b0861be26a92ac4517fc1bbb02c4e08f93dcf09e",
+    "unleash-proxy@0.8.13": "sha256:5847cc370814101c7967237c85f197112b836fe19aa724c600e7564674b102ab",
     "unleash@5.6.7": "sha256:ff20297ca4445c78a4dc72c2f86cb6e2e4a201cd0ecbed18a15091ab4c44acfc",
-    "unleash@5.6.8": "sha256:f557b735dcaf060943fb072d9158888870b257e97dcf294b76e312f55d36ddb0"
+    "unleash@5.6.8": "sha256:f557b735dcaf060943fb072d9158888870b257e97dcf294b76e312f55d36ddb0",
+    "unleash@5.6.9": "sha256:3633ac9fca4cd7aa436b29a0d41f02e18a4caa71afef498a4366793fa883c46f"
   },
   "skipped": [
     "unleash-edge@1.0.0",

@@ -73,6 +73,7 @@
     "rollout-operator@0.50.1": "sha256:788a18eb4a6f3d7f95d6119e60877edef155cdf7139e776ed76ee9abbabc1a38",
     "rollout-operator@0.51.1": "sha256:e4c36ce59a4071885f6f75187145c900a3b6adb187b2013984aaa976d15a1042",
     "rollout-operator@0.52.0": "sha256:f2fef74e62729948446ce6abca6d3762ef91dccf1c8a789277b5292a2d6fd232",
+    "rollout-operator@0.53.0": "sha256:1bff20b615c68435e7fa10969b5b32ac17fd5b73eedacb5a75570833e0396a0d",
     "snyk-exporter@0.1.0": "sha256:13bf321237af9d0d8c2203726a387f2602a2557a0fbc39c500da5e619929f298",
     "synthetic-monitoring-agent@1.2.1": "sha256:de946c8101727ee234cf8a1a19bb89d07d528ba0f6705d4224bcc07aadd43d2d",
     "tempo-distributed@1.61.3": "sha256:6db30e45043140b66ba8f4655dd93e175c0c80d30fe26b5b12dd7caa56c8a93b",
