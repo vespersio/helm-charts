@@ -66,6 +66,7 @@
     "k8s-monitoring@4.5.3": "sha256:c74ae7f5823472eb8da67b6f837d1a8e6b28c712599bb28bee19b34539cebf60",
     "k8s-monitoring@4.5.4": "sha256:208229a6bf23f53a5dced74d3711d22eae18fe916e76e8b3dfb454a44b458cd7",
     "k8s-monitoring@4.5.5": "sha256:f32b74688a599a7f890f9d36a79c5015d001e4470e6aa26b8fa292f5fb0c08df",
+    "k8s-monitoring@4.6.0": "sha256:082ecdcea60924b879e7ef7cc0f8ef3bc4128954da72688fe72075c7acdde0d2",
     "lgtm-distributed@3.0.1": "sha256:b615fcf0a4212e5595e13f801da7b89b21b7ab5161a4d5f8976685df676b1cdf",
     "loki-canary@0.14.1": "sha256:c0d30b910b6be36223d4015f91e80759e9cf851ebab1d81ca1c9ae546e670ce9",
     "loki-distributed@0.80.6": "sha256:39931c41a20370434a7efc96ba24c4ec943127bbe69694a8f8d630bea7a71d46",
