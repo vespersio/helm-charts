@@ -116,6 +116,7 @@
     "openbao@0.20.2": "sha256:79b9caaeeedea7b36ece7d58bbff98e3ff0af24c739c4de9bd26887455003b2c",
     "openbao@0.20.3": "sha256:680e5f3f16f0ef5ad91375b89475d5ede379639c4bb1ede489c34e512d984917",
     "openbao@1.0.0": "sha256:5b4d27c05f088267c3a77d42df9daf85874ca7b58568aa36958b0bc2cd51c1ec",
+    "openbao@1.0.1": "sha256:ffc41ae8758e3c692888f98d7c407181daac1a3a5cf2c7e56860dec7147f24cc",
     "plantuml@0.1.17": "sha256:2009dd946011fc7db9439a2d32946698a74e99a48653e55f410e24d99d49ce1e"
   },
   "skipped": [

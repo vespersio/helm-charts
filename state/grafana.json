@@ -105,6 +105,7 @@
     "rollout-operator@0.54.0": "sha256:4eaf36e8c21ce61ae25f6a0913bf67bb686bea29cc916c30bdc259a80d11560c",
     "snyk-exporter@0.1.0": "sha256:13bf321237af9d0d8c2203726a387f2602a2557a0fbc39c500da5e619929f298",
     "synthetic-monitoring-agent@1.2.1": "sha256:de946c8101727ee234cf8a1a19bb89d07d528ba0f6705d4224bcc07aadd43d2d",
+    "synthetic-monitoring-agent@2.0.0": "sha256:8c9c4f43bf0f9818b410da71ed89cd421ca5ba398b63e9853b642677db55ff8c",
     "tempo-distributed@1.61.3": "sha256:6db30e45043140b66ba8f4655dd93e175c0c80d30fe26b5b12dd7caa56c8a93b",
     "tempo-vulture@0.10.1": "sha256:5cbd3d12d189fd0bc3bec58dcf8d62de256c72ddd2ba44554b1892b283959a08",
     "tempo@1.24.4": "sha256:f1f6e318d5bca3b5097cb676077796cdf8135beb2c1f71c4d14614ccf9b0081b"
