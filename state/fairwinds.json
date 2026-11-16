@@ -107,6 +107,7 @@
     "insights-agent@6.21.2": "sha256:c596c960008fb61756de850a21af48ea0a1d9c63f5edeac7d6f8000b9bf46d97",
     "insights-agent@6.22.0": "sha256:cc85179969d5e502ed53c13a7ba08dcca15ceeed9819ae136fd28e4e800245bd",
     "insights-agent@6.23.0": "sha256:0f79ac75b0899000c6262b16d07dc062767b09db4025cb509d2f171cb318d141",
+    "insights-agent@6.23.1": "sha256:e84c2043e42f53bf32a9ee38ad22624217a8db0b731f78dd627b88eefc478394",
     "insights-agent@6.3.0": "sha256:2774c407c7380483508fc885a097393115bcaa335d1041692d7484d030fe2a13",
     "insights-agent@6.4.0": "sha256:54a2003b7ef0a0bfbaee720bb25dee575dbadf0f27bea148250a4372ef307be6",
     "insights-agent@6.5.0": "sha256:cc795bd9d9e6a80ebfa35570202279cfda37c9cc68fbf7dbfb1384cef1cb7fe7",

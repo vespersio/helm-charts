@@ -18,7 +18,8 @@
     "sentry@34.1.0": "sha256:74d4ca6dd5fed340f4425f63532e747148d0c19d56d595f2bed591bfab10d2ba",
     "sentry@34.1.1": "sha256:c5be7692b06e12f097077db00ff624ada7f9412f48d07aa7a5780872fd06b4ba",
     "sentry@35.0.0": "sha256:305786ac54f07cdfd20191a708fb7852994046ac0fee5379a7035c70a8cec98a",
-    "sentry@36.0.0": "sha256:3c423ff74af9d3904df8e03107adbc3609fc0a2412143cc08253c1f1ef1adc82"
+    "sentry@36.0.0": "sha256:3c423ff74af9d3904df8e03107adbc3609fc0a2412143cc08253c1f1ef1adc82",
+    "sentry@36.0.1": "sha256:8158cfa22d0f2d00a83d1d3028faafcdacb8287a9677794a7d88332e2f18393f"
   },
   "skipped": [
     "clickhouse@1.0.0",

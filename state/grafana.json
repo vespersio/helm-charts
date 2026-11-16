@@ -45,6 +45,7 @@
     "grafana-mcp@0.3.1": "sha256:c525d05d6fb145dc7fe060aade10f17e67ce74809f4b30a5931ee859feefc896",
     "grafana-operator@5.24.0": "sha256:ffde0a5b1efab88d5e37a3b996b749849c8fe5a8b4b43dbb9301f360b9918a81",
     "grafana-operator@5.25.0": "sha256:4a5319f9796a4460b8b7adfc13f2b5a077c01cea3668a920ffa4094e756c9d48",
+    "grafana-operator@5.26.0": "sha256:c329d659cabea2fb7ce8e05aeebf85f1c6d00cc53633e2a880666305b5fc4e8a",
     "grafana-sampling@1.1.7": "sha256:fe68b73f79acba3f4138b5e9cf2cf9503fc5d0c74ac929045ab748ee1820f5a1",
     "grafana@10.5.15": "sha256:c08c87969270402e7d5227edb8385af67cc32ee34817bff89773ad02303b5d79",
     "k6-operator@4.5.0": "sha256:89388ea2503d381b2e03063e6118d73230f10f48ef6c0b40771e38363d5ebac4",
