@@ -37,6 +37,7 @@
     "cloudcost-exporter@1.1.16": "sha256:71831b65a5bbaf69c7926884e11895a42c42eba3a908492b2a8e9d6830451082",
     "cloudcost-exporter@1.1.17": "sha256:4ea1f4d20d7d2c1cb703816c9ced6539eca9eb6b757b65444898aa2c59e03660",
     "cloudcost-exporter@1.1.18": "sha256:bea036738701becc2fc44a255c4133b97e96fa5059afd73f56897615e41d22b4",
+    "cloudcost-exporter@1.1.19": "sha256:9e5e7ddb3329a9e0b54b58571bed375c98aea798c60d05759f75332dd17a5ac1",
     "enterprise-logs-simple@1.3.0": "sha256:f7889d0fbe90470efba19f8c2e0edc65e6922c9ac109d51e4706767b09cf52d3",
     "enterprise-logs@2.5.1": "sha256:90b239be37462920b8dd19f2d6baf5f4eaf61fbebbdae6fef399124670bfa570",
     "enterprise-metrics@1.10.0": "sha256:8ba714d9962718b224ca2660f3eda0cd6d53ac4fdff56f2f5a557d30c2fe0c91",
@@ -112,6 +113,7 @@
     "snyk-exporter@0.1.0": "sha256:13bf321237af9d0d8c2203726a387f2602a2557a0fbc39c500da5e619929f298",
     "synthetic-monitoring-agent@1.2.1": "sha256:de946c8101727ee234cf8a1a19bb89d07d528ba0f6705d4224bcc07aadd43d2d",
     "synthetic-monitoring-agent@2.0.0": "sha256:8c9c4f43bf0f9818b410da71ed89cd421ca5ba398b63e9853b642677db55ff8c",
+    "synthetic-monitoring-agent@2.0.1": "sha256:b81a5eb69e07d691c2cff398303a4c4e1198359ef22e4a5b002a5a6c98fe53e6",
     "tempo-distributed@1.61.3": "sha256:6db30e45043140b66ba8f4655dd93e175c0c80d30fe26b5b12dd7caa56c8a93b",
     "tempo-vulture@0.10.1": "sha256:5cbd3d12d189fd0bc3bec58dcf8d62de256c72ddd2ba44554b1892b283959a08",
     "tempo@1.24.4": "sha256:f1f6e318d5bca3b5097cb676077796cdf8135beb2c1f71c4d14614ccf9b0081b"
