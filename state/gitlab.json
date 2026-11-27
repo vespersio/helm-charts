@@ -3,6 +3,11 @@
   "initialized": true,
   "published": {
     "apparmor@0.2.0": "sha256:3501edba1c925864893b56bc70be778b4122d44e33d9553e03949aa115e2a0ea",
+    "artifact-registry@3.192.0": "sha256:7b98dd54282ae3ff7c4ca8364f7c2fa03a70e83d02dcb510c54ef6110ba2421c",
+    "artifact-registry@3.193.0": "sha256:a3deb86ffaae261d9bd3983eadef990993d531d22017228336386d125ff1da1a",
+    "artifact-registry@3.194.0": "sha256:4edc9489d961a329fdc17d20ec278d3837e52d9ddb2de70b6782ee8743ec1ea1",
+    "artifact-registry@3.195.0": "sha256:402faf792e8932d77eaec940fb5140510e55ab1211016e37e22b9d5d12af6731",
+    "artifact-registry@3.196.0": "sha256:a1c535b242c7f3abe24110709a4fcd637c155717790e37e123c2c0fda85dac70",
     "auto-deploy-app@0.8.1": "sha256:05f3e583be88da47b1aa9804fafcfed5ae3bedd1d0489d954fd20c57b3383fb3",
     "elastic-stack@3.0.0": "sha256:bcd603f77a75a8b3180328156e4a38fdef5c72788c72ff8b510ecd5795652f35",
     "fluentd-elasticsearch@6.2.8": "sha256:dfebc613e5783551422a803ada3763de9748f1f6270074a1616d843337c793f6",
